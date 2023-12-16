@@ -1,0 +1,453 @@
+.white-clr {
+  color: whitesmoke;
+}
+
+.category-image {
+  border-radius: 250px;
+  border: 4px solid;
+  border-color: #486ee0;
+  box-shadow: 0px 0px 15px 0px #000000;
+  /* it will animate in an outside style*/
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.category-image:hover {
+  /* it will scale in an outside style while hovering on card*/
+  transform: scale(1.05);
+  box-shadow: 0px 0px 15px 0px #000000;
+  /* Changing box shadow on hover */
+}
+
+.category-para {
+  font-size: 20px;
+  color: #486ee0;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.category-animation{
+  width: 200px;
+}
+
+.category-heading {
+  margin-top: 38%;
+  margin-left: 25%;
+  color: #486ee0;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: bolder;
+  animation: heading-animation 1s ease-in-out infinite;
+
+}
+.category-section{
+  background: linear-gradient(to left, #add8e6, #cbe2eb, #1e90ff);
+  background-size: 200% 100%;
+  animation: gradientAnimation 5s linear infinite;
+  width: 40%;
+  border-top-right-radius: 50px;
+  border-bottom-left-radius: 50px;
+}
+
+.categories-section-data{
+  margin-top: 6%;
+  margin-bottom: 9%;
+}
+.about-tourismpackage-section {
+
+  /* background color of 3 color ranges (gradient) */
+  /* color is changing towards the left */
+  background: linear-gradient(to left, #add8e6, #cbe2eb, #1e90ff);
+  background-size: 200% 100%;
+  animation: gradientAnimation 5s linear infinite;
+  margin-top: 7%;
+  margin-bottom: 5%;
+}
+
+/* gradient animation */
+@keyframes gradientAnimation {
+  0% {
+    background-position: 0% 0%;
+  }
+
+  100% {
+    background-position: 100% 0%;
+  }
+}
+
+.about-ourpackages-heading {
+  margin-right: 6%;
+  margin-left: 3%;
+  color: #486ee0;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.about-ourpackages-para {
+  margin-right: 6%;
+  margin-left: 3%;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.service-icons {
+  margin-right: 6%;
+  margin-left: 3%;
+  color: #486ee0;
+  font-family: 'Quicksand', sans-serif;
+}
+
+/* to adjust the position of rotated mountain img */
+.image-container {
+  position: relative;
+}
+
+.rotated-mountain {
+  width: 180px;
+
+  position: absolute;
+  top: 0;
+  right: 0;
+
+  /* rotating mountain img */
+  transform: rotate(20deg);
+
+  /* keeping mountain img infront of the package image */
+  z-index: 1;
+
+  box-shadow: 0px 0px 15px 0px #000000;
+  /* it will animate in an outside style*/
+  transition: transform 0.2s, box-shadow 0.2s;
+  border: 4px solid;
+  border-color: antiquewhite;
+}
+
+.rotated-mountain:hover {
+  /* it will scale in an outside style while hovering on card*/
+  transform: scale(1.05);
+  box-shadow: 0px 0px 15px 0px #000000;
+  /* Changing box shadow on hover */
+}
+
+.rotated-mountain-two {
+  width: 180px;
+
+  position: absolute;
+  top: 0;
+  /* it is taking position from left side */
+  left: 0;
+
+  /* rotating mountain img */
+  transform: rotate(340deg);
+
+  /* keeping mountain img infront of the package image */
+  z-index: 1;
+
+  box-shadow: 0px 0px 15px 0px #000000;
+  /* it will animate in an outside style*/
+  transition: transform 0.2s, box-shadow 0.2s;
+  border: 4px solid;
+  border-color: antiquewhite;
+}
+
+.rotated-mountain-two:hover {
+  /* it will scale in an outside style while hovering on card*/
+  transform: scale(1.05);
+  box-shadow: 0px 0px 15px 0px #000000;
+  /* Changing box shadow on hover */
+}
+
+.Pcards-section{
+  margin-top: 7%;
+  margin-bottom: 7%;
+  background: linear-gradient(to left, #add8e6, #cbe2eb, #1e90ff);
+  background-size: 200% 100%;
+  animation: gradientAnimation 5s linear infinite;
+  width: 40%;
+  border-top-right-radius: 50px;
+  border-bottom-left-radius: 50px;
+}
+.pCards-animation{
+  width: 200px;
+  margin-left: 35%;
+}
+.pCards-Heading {
+  color:#486ee0;
+  font-family: 'Quicksand', sans-serif;
+  animation: heading-animation 1s ease-in-out infinite;
+  margin-left: 45%;
+  margin-top: 45%;
+}
+
+.offer-service-section{
+  margin-top: 5%;
+}
+.offerservice-mini-heading {
+  font-family: 'Dancing Script';
+  font-size: 25px;
+  margin-left: 10%;
+  color: #486ee0;
+}
+
+.offerservice-main-heading {
+  margin-left: 40%;
+  color: #486ee0;
+  font-family: 'Quicksand', sans-serif;
+  animation: heading-animation 1s ease-in-out infinite;
+}
+
+.offer-service-para {
+  margin-left: 10%;
+  font-family: 'Quicksand', sans-serif;
+  color: black;
+}
+
+.key-points-heading {
+  font-family: 'Quicksand', sans-serif;
+}
+
+.key-points-text {
+  font-family: 'Quicksand', sans-serif;
+  color: gray;
+}
+
+.set-icons {
+  margin-left: 9%;
+}
+
+/* to adjust the position of offer service images */
+.image-container {
+  position: relative;
+}
+
+.offerservice-img1 {
+
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-right: 12px;
+  padding-left: 12px;
+  box-shadow: 0px 0px 15px 0px #000000;
+  /* it will animate in an outside style*/
+  transition: transform 0.2s, box-shadow 0.2s;
+
+}
+
+.offerservice-img2 {
+  width: 300px;
+  box-shadow: 0px 0px 15px 0px #000000;
+  /* it will animate in an outside style*/
+  transition: transform 0.2s, box-shadow 0.2s;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+
+  /* keeping camping img infront of the back image */
+  z-index: 1;
+
+  /* rotating camping img */
+  transform: rotate(340deg);
+
+  border: 4px solid;
+  border-color: antiquewhite;
+
+}
+
+.offerservice-img1:hover {
+ /* it will scale in an outside style while hovering on card*/
+ transform: scale(1.05);
+ box-shadow: 0px 0px 15px 0px #000000;
+ /* Changing box shadow on hover */
+}
+
+.offerservice-img2:hover {
+/* it will scale in an outside style while hovering on card*/
+transform: scale(1.05);
+box-shadow: 0px 0px 15px 0px #000000;
+/* Changing box shadow on hover */
+}
+
+.location-animation {
+  width: 300px;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+
+.box-animation {
+  width: 130px;
+}
+
+.offer-service-animation {
+  width: 320px;
+  margin-left: 1%;
+}
+
+
+/* filter box main div */
+.filters {
+  width: 14vmax;
+  box-shadow: 0px 0px 15px 0px #000000;
+  /* it will animate in an outside style*/
+  transition: transform 0.2s, box-shadow 0.2s;
+  border-radius: 15px;
+  background-color: lightgrey;
+  margin-left: 4%;
+  border: 2px solid #486ee0;
+  margin-right: 5%;
+  margin-bottom: 4%;
+ position: absolute;
+ left: 0;
+}
+
+.filters:hover {
+  transform: scale(1.05);
+  box-shadow: 0px 0px 15px 0px #000000;
+}
+
+.filter-heading {
+  color: white;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 700;
+  text-align: center;
+  background-color: #1e90ff;
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+}
+
+.filter-fields {
+  color: #486ee0;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 700;
+
+}
+
+
+.filterBox {
+  width: 12vmax;
+  padding-left: 10px;
+}
+
+
+.categoryBox {
+  padding: 0;
+  background-color: lightgrey;
+
+}
+
+.category-link {
+  list-style: none;
+  color: rgba(0, 0, 0, 0.61);
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 800;
+  font-size: 12px;
+  margin: 0.4vmax;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+.category-link:hover {
+  color: #486ee0;
+}
+
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 100px;
+  padding: 0 5vmax;
+  justify-content: center;
+  min-height: 30vh;
+}
+
+.paginationBox {
+  display: flex;
+  justify-content: center;
+  margin: 6vmax;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  padding: 0;
+}
+
+.page-item {
+  background-color: rgb(255, 255, 255);
+  list-style: none;
+  border: 1px solid rgba(0, 0, 0, 0.178);
+  padding: 1vmax 1.5vmax;
+  transition: all 0.3s;
+  cursor: pointer;
+}
+
+.page-item:first-child {
+  border-radius: 5px 0 0 5px;
+}
+
+.page-item:last-child {
+  border-radius: 0 5px 5px 0;
+}
+
+.page-link {
+  text-decoration: none;
+  font: 300 0.7vmax "Roboto";
+  color: rgb(80, 80, 80);
+  transition: all 0.3s;
+}
+
+.page-item:hover {
+  background-color: rgb(230, 230, 230);
+}
+
+.page-item:hover .page-link {
+  color: rgb(0, 0, 0);
+}
+
+.pageItemActive {
+  background-color:rgba(12, 57, 121, 0.856) !important;
+}
+
+.pageLinkActive {
+  color: white;
+}
+
+
+@media screen and (max-width: 600px) {
+  .filterBox {
+    width: 20vmax;
+    position: static;
+    margin: auto;
+  }
+
+  .page-link {
+    font: 300 1.7vmax "Roboto";
+  }
+
+  .filters {
+    width: 30vmax;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .filters {
+    width: 20vmax;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .filters {
+    width: 22vmax;
+  }
+}
+@media only screen and (max-width: 950px) {
+
+  .rotated-mountain {
+    width: 100px;
+  }
+  .rotated-mountain-two{
+    width: 100px;
+  }
+  .offerservice-img2{
+    width: 150px;
+  }
+  .Pcards-section{
+    width: 100%;
+  }
+  .category-section{
+    width: 100%;
+  }
+}

@@ -1,0 +1,127 @@
+.shippingContainer {
+  width: 100vw;
+  max-width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+
+.shippingBox {
+
+  width: 30vw;
+  height: 80vh;
+  box-sizing: border-box;
+  overflow: hidden;
+  background-color: lightgray;
+  border-radius: 20px;
+  box-shadow: 0px 0px 30px 0px #000000;
+  margin-bottom: 2%;
+
+}
+
+/* booking detils heading */
+.shippingHeading {
+  text-align: center;
+  color: #0067a5;
+  font: 500 1.5vmax "Quicksand";
+  padding: 1.3vmax;
+  border-bottom: 7px solid #0067a5;
+  width: 50%;
+  margin: auto;
+}
+
+.shippingForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+  padding: 2vmax;
+  justify-content: space-evenly;
+  height: 80%;
+  transition: all 0.5s;
+
+}
+
+.shippingForm>div {
+  display: flex;
+  width: 100%;
+  align-items: center;
+}
+
+/* input fields */
+.shippingForm>div>input,
+.shippingForm>div>select {
+  padding: 1vmax 3vmax;
+  padding-right: 1vmax;
+  width: 100%;
+  box-sizing: border-box;
+  outline: none;
+  border: 3px solid #0067a5;
+  border-radius: 7px;
+  box-shadow: 0px 0px 9px 0px #000000;
+  font-family: 'Quicksand', sans-serif;
+}
+
+/* icons */
+.shippingForm>div>svg {
+  color: #0067a5;
+  position: absolute;
+  transform: translateX(1vmax);
+  font-size: 1.6vmax;
+}
+
+/* shipping button */
+.shippingBtn {
+  border: none;
+  background-color: #0067a5;
+  border-radius: 7px;
+  box-shadow: 0px 0px 15px 0px #000000;
+  color: antiquewhite;
+  font: 500 1.2vmax "Quicksand";
+  width: 100%;
+  padding: 1vmax;
+  cursor: pointer;
+  transition: all 0.5s;
+  outline: none;
+  margin: 2vmax;
+}
+
+.shippingBtn:hover {
+  background-color: black;
+  color: antiquewhite;
+  transform: scale(1.1);
+}
+
+@media screen and (max-width: 600px) {
+  .shippingBox {
+    width: 100vw;
+    height: 95vh;
+  }
+
+  .shippingHeading {
+    font: 400 6vw "Roboto";
+    padding: 5vw;
+  }
+
+  .shippingForm {
+    padding: 11vw;
+  }
+
+  .shippingForm>div>input,
+  .shippingForm>div>select {
+    padding: 5vw 10vw;
+    font: 300 4vw "Roboto";
+  }
+
+  .shippingForm>div>svg {
+    font-size: 6vw;
+    transform: translateX(3vw);
+  }
+
+  .shippingBtn {
+    font: 300 4vw "Roboto";
+    padding: 4vw;
+  }
+}

@@ -1,0 +1,221 @@
+Date : 2023-11-04 01:35:12
+Directory : c:\Users\ACER\Downloads\travelogue_fyp
+Total : 160 files,  35409 codes, 1252 comments, 2282 blanks, all 38943 lines
+
+Languages
++------------+------------+------------+------------+------------+------------+
+| language   | files      | code       | comment    | blank      | total      |
++------------+------------+------------+------------+------------+------------+
+| JSON       |         27 |     20,694 |          0 |          5 |     20,699 |
+| JavaScript |         93 |     10,364 |        832 |      1,401 |     12,597 |
+| CSS        |         38 |      4,283 |        415 |        827 |      5,525 |
+| Markdown   |          1 |         38 |          0 |         33 |         71 |
+| HTML       |          1 |         30 |          5 |         16 |         51 |
++------------+------------+------------+------------+------------+------------+
+
+Directories
++------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                                                                       | files      | code       | comment    | blank      | total      |
++------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                                                                          |        160 |     35,409 |      1,252 |      2,282 |     38,943 |
+| . (Files)                                                                                                  |          2 |      1,163 |          0 |          2 |      1,165 |
+| backend                                                                                                    |         24 |      1,510 |        171 |        282 |      1,963 |
+| backend (Files)                                                                                            |          2 |         52 |          6 |         18 |         76 |
+| backend\config                                                                                             |          1 |         13 |          0 |          3 |         16 |
+| backend\controllers                                                                                        |          5 |        782 |         44 |        188 |      1,014 |
+| backend\middlewares                                                                                        |          3 |         49 |          4 |         16 |         69 |
+| backend\models                                                                                             |          4 |        417 |        105 |         23 |        545 |
+| backend\routes                                                                                             |          5 |        126 |          0 |         12 |        138 |
+| backend\utils                                                                                              |          4 |         71 |         12 |         22 |        105 |
+| frontend                                                                                                   |        134 |     32,736 |      1,081 |      1,998 |     35,815 |
+| frontend (Files)                                                                                           |          3 |     19,522 |          0 |         35 |     19,557 |
+| frontend\public                                                                                            |          2 |         55 |          5 |         17 |         77 |
+| frontend\src                                                                                               |        129 |     13,159 |      1,076 |      1,946 |     16,181 |
+| frontend\src (Files)                                                                                       |          7 |        443 |         10 |         34 |        487 |
+| frontend\src\actions                                                                                       |          5 |        615 |         23 |        141 |        779 |
+| frontend\src\assets                                                                                        |         22 |         22 |          0 |          0 |         22 |
+| frontend\src\components                                                                                    |         85 |     10,956 |      1,029 |      1,658 |     13,643 |
+| frontend\src\components\Admin                                                                              |         17 |      2,304 |        381 |        330 |      3,015 |
+| frontend\src\components\Cart                                                                               |         14 |      1,085 |         16 |        154 |      1,255 |
+| frontend\src\components\Home                                                                               |          6 |      1,042 |         46 |        218 |      1,306 |
+| frontend\src\components\Order                                                                              |          4 |        358 |          0 |         54 |        412 |
+| frontend\src\components\Product                                                                            |          7 |      1,695 |        158 |        237 |      2,090 |
+| frontend\src\components\Route                                                                              |          3 |         46 |          0 |          6 |         52 |
+| frontend\src\components\TransportAgency                                                                    |          8 |      1,151 |         99 |        145 |      1,395 |
+| frontend\src\components\User                                                                               |         12 |      1,757 |        211 |        236 |      2,204 |
+| frontend\src\components\Vehicles                                                                           |          4 |      1,126 |        116 |        223 |      1,465 |
+| frontend\src\components\layout                                                                             |         10 |        392 |          2 |         55 |        449 |
+| frontend\src\components\layout (Files)                                                                     |          2 |         38 |          0 |          5 |         43 |
+| frontend\src\components\layout\Footer                                                                      |          2 |        128 |          0 |         16 |        144 |
+| frontend\src\components\layout\Header                                                                      |          4 |        196 |          2 |         28 |        226 |
+| frontend\src\components\layout\Loader                                                                      |          2 |         30 |          0 |          6 |         36 |
+| frontend\src\constants                                                                                     |          5 |        131 |          0 |         44 |        175 |
+| frontend\src\reducers                                                                                      |          5 |        992 |         14 |         69 |      1,075 |
++------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| filename                                                                                                   | language   | code       | comment    | blank      | total      |
++------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| c:\Users\ACER\Downloads\travelogue_fyp\backend\app.js                                                      | JavaScript |         24 |          3 |          7 |         34 |
+| c:\Users\ACER\Downloads\travelogue_fyp\backend\config\database.js                                          | JavaScript |         13 |          0 |          3 |         16 |
+| c:\Users\ACER\Downloads\travelogue_fyp\backend\controllers\orderController.js                              | JavaScript |        104 |          6 |         26 |        136 |
+| c:\Users\ACER\Downloads\travelogue_fyp\backend\controllers\paymentController.js                            | JavaScript |         21 |          0 |          7 |         28 |
+| c:\Users\ACER\Downloads\travelogue_fyp\backend\controllers\productController.js                            | JavaScript |        209 |         12 |         52 |        273 |
+| c:\Users\ACER\Downloads\travelogue_fyp\backend\controllers\transportAgencyController.js                    | JavaScript |        202 |         11 |         42 |        255 |
+| c:\Users\ACER\Downloads\travelogue_fyp\backend\controllers\userController.js                               | JavaScript |        246 |         15 |         61 |        322 |
+| c:\Users\ACER\Downloads\travelogue_fyp\backend\middlewares\auth.js                                         | JavaScript |         21 |          0 |          6 |         27 |
+| c:\Users\ACER\Downloads\travelogue_fyp\backend\middlewares\catchAsyncErrors.js                             | JavaScript |          3 |          0 |          0 |          3 |
+| c:\Users\ACER\Downloads\travelogue_fyp\backend\middlewares\error.js                                        | JavaScript |         25 |          4 |         10 |         39 |
+| c:\Users\ACER\Downloads\travelogue_fyp\backend\models\orderModel.js                                        | JavaScript |         86 |          0 |          3 |         89 |
+| c:\Users\ACER\Downloads\travelogue_fyp\backend\models\productModel.js                                      | JavaScript |        120 |        100 |          7 |        227 |
+| c:\Users\ACER\Downloads\travelogue_fyp\backend\models\transportAgencyModel.js                              | JavaScript |         87 |          0 |          3 |         90 |
+| c:\Users\ACER\Downloads\travelogue_fyp\backend\models\userModel.js                                         | JavaScript |        124 |          5 |         10 |        139 |
+| c:\Users\ACER\Downloads\travelogue_fyp\backend\routes\orderRoute.js                                        | JavaScript |         11 |          0 |          3 |         14 |
+| c:\Users\ACER\Downloads\travelogue_fyp\backend\routes\paymentRoute.js                                      | JavaScript |          7 |          0 |          2 |          9 |
+| c:\Users\ACER\Downloads\travelogue_fyp\backend\routes\productRoute.js                                      | JavaScript |         44 |          0 |          3 |         47 |
+| c:\Users\ACER\Downloads\travelogue_fyp\backend\routes\transportAgencyRoute.js                              | JavaScript |         14 |          0 |          1 |         15 |
+| c:\Users\ACER\Downloads\travelogue_fyp\backend\routes\userRoutes.js                                        | JavaScript |         50 |          0 |          3 |         53 |
+| c:\Users\ACER\Downloads\travelogue_fyp\backend\server.js                                                   | JavaScript |         28 |          3 |         11 |         42 |
+| c:\Users\ACER\Downloads\travelogue_fyp\backend\utils\apifeatures.js                                        | JavaScript |         25 |         10 |         11 |         46 |
+| c:\Users\ACER\Downloads\travelogue_fyp\backend\utils\errorhandler.js                                       | JavaScript |          8 |          0 |          2 |         10 |
+| c:\Users\ACER\Downloads\travelogue_fyp\backend\utils\jwtToken.js                                           | JavaScript |         15 |          2 |          5 |         22 |
+| c:\Users\ACER\Downloads\travelogue_fyp\backend\utils\sendEmail.js                                          | JavaScript |         23 |          0 |          4 |         27 |
+| c:\Users\ACER\Downloads\travelogue_fyp\frontend\README.md                                                  | Markdown   |         38 |          0 |         33 |         71 |
+| c:\Users\ACER\Downloads\travelogue_fyp\frontend\package-lock.json                                          | JSON       |     19,418 |          0 |          1 |     19,419 |
+| c:\Users\ACER\Downloads\travelogue_fyp\frontend\package.json                                               | JSON       |         66 |          0 |          1 |         67 |
+| c:\Users\ACER\Downloads\travelogue_fyp\frontend\public\index.html                                          | HTML       |         30 |          5 |         16 |         51 |
+| c:\Users\ACER\Downloads\travelogue_fyp\frontend\public\manifest.json                                       | JSON       |         25 |          0 |          1 |         26 |
+| c:\Users\ACER\Downloads\travelogue_fyp\frontend\src\App.css                                                | CSS        |         18 |          5 |          4 |         27 |
+| c:\Users\ACER\Downloads\travelogue_fyp\frontend\src\App.js                                                 | JavaScript |        308 |          5 |         16 |        329 |
+| c:\Users\ACER\Downloads\travelogue_fyp\frontend\src\App.test.js                                            | JavaScript |          7 |          0 |          2 |          9 |
+| c:\Users\ACER\Downloads\travelogue_fyp\frontend\src\Layout.js                                              | JavaScript |         11 |          0 |          1 |         12 |
+| c:\Users\ACER\Downloads\travelogue_fyp\frontend\src\actions\cartActions.js                                 | JavaScript |         31 |          0 |          7 |         38 |
+| c:\Users\ACER\Downloads\travelogue_fyp\frontend\src\actions\orderActions.js                                | JavaScript |         81 |          3 |         24 |        108 |
+| c:\Users\ACER\Downloads\travelogue_fyp\frontend\src\actions\productActions.js                              | JavaScript |        164 |          6 |         30 |        200 |
+| c:\Users\ACER\Downloads\travelogue_fyp\frontend\src\actions\userActions.js                                 | JavaScript |        171 |          4 |         48 |        223 |
+| c:\Users\ACER\Downloads\travelogue_fyp\frontend\src\actions\vehicleActions.js                              | JavaScript |        168 |         10 |         32 |        210 |
+| c:\Users\ACER\Downloads\travelogue_fyp\frontend\src\assets\R1.json                                         | JSON       |          1 |          0 |          0 |          1 |
+| c:\Users\ACER\Downloads\travelogue_fyp\frontend\src\assets\R2.json                                         | JSON       |          1 |          0 |          0 |          1 |
+| c:\Users\ACER\Downloads\travelogue_fyp\frontend\src\assets\R3.json                                         | JSON       |          1 |          0 |          0 |          1 |
+| c:\Users\ACER\Downloads\travelogue_fyp\frontend\src\assets\boxanimation.json                               | JSON       |          1 |          0 |          0 |          1 |
+| c:\Users\ACER\Downloads\travelogue_fyp\frontend\src\assets\boxanimations.json                              | JSON       |          1 |          0 |          0 |          1 |
+| c:\Users\ACER\Downloads\travelogue_fyp\frontend\src\assets\cardetailedpagenimation.json                    | JSON       |          1 |          0 |          0 |          1 |
+| c:\Users\ACER\Downloads\travelogue_fyp\frontend\src\assets\categoriesanimation.json                        | JSON       |          1 |          0 |          0 |          1 |
+| c:\Users\ACER\Downloads\travelogue_fyp\frontend\src\assets\detailedpage.json                               | JSON       |          1 |          0 |          0 |          1 |
+| c:\Users\ACER\Downloads\travelogue_fyp\frontend\src\assets\drive.json                                      | JSON       |          1 |          0 |          0 |          1 |
+| c:\Users\ACER\Downloads\travelogue_fyp\frontend\src\assets\driving.json                                    | JSON       |          1 |          0 |          0 |          1 |
+| c:\Users\ACER\Downloads\travelogue_fyp\frontend\src\assets\h1.json                                         | JSON       |          1 |          0 |          0 |          1 |
+| c:\Users\ACER\Downloads\travelogue_fyp\frontend\src\assets\h3.json                                         | JSON       |          1 |          0 |          0 |          1 |
+| c:\Users\ACER\Downloads\travelogue_fyp\frontend\src\assets\h4.json                                         | JSON       |          1 |          0 |          0 |          1 |
+| c:\Users\ACER\Downloads\travelogue_fyp\frontend\src\assets\locationanimation.json                          | JSON       |          1 |          0 |          0 |          1 |
+| c:\Users\ACER\Downloads\travelogue_fyp\frontend\src\assets\movingbus.json                                  | JSON       |          1 |          0 |          0 |          1 |
+| c:\Users\ACER\Downloads\travelogue_fyp\frontend\src\assets\p1.json                                         | JSON       |          1 |          0 |          0 |          1 |
+| c:\Users\ACER\Downloads\travelogue_fyp\frontend\src\assets\packageanimations.json                          | JSON       |          1 |          0 |          0 |          1 |
+| c:\Users\ACER\Downloads\travelogue_fyp\frontend\src\assets\travelinganimation.json                         | JSON       |          1 |          0 |          0 |          1 |
+| c:\Users\ACER\Downloads\travelogue_fyp\frontend\src\assets\vh1.json                                        | JSON       |          1 |          0 |          0 |          1 |
+| c:\Users\ACER\Downloads\travelogue_fyp\frontend\src\assets\vh2.json                                        | JSON       |          1 |          0 |          0 |          1 |
+| c:\Users\ACER\Downloads\travelogue_fyp\frontend\src\assets\walkingcar.json                                 | JSON       |          1 |          0 |          0 |          1 |
+| c:\Users\ACER\Downloads\travelogue_fyp\frontend\src\assets\walkingman.json                                 | JSON       |          1 |          0 |          0 |          1 |
+| c:\Users\ACER\Downloads\travelogue_fyp\frontend\src\components\Admin\Dashboard.css                         | CSS        |        104 |          9 |         21 |        134 |
+| c:\Users\ACER\Downloads\travelogue_fyp\frontend\src\components\Admin\Dashboard.js                          | JavaScript |         68 |          0 |         12 |         80 |
+| c:\Users\ACER\Downloads\travelogue_fyp\frontend\src\components\Admin\NewProduct.css                        | CSS        |        148 |         23 |         28 |        199 |
+| c:\Users\ACER\Downloads\travelogue_fyp\frontend\src\components\Admin\NewProduct.js                         | JavaScript |        352 |         28 |         29 |        409 |
+| c:\Users\ACER\Downloads\travelogue_fyp\frontend\src\components\Admin\OrdersList.js                         | JavaScript |        122 |          0 |         22 |        144 |
+| c:\Users\ACER\Downloads\travelogue_fyp\frontend\src\components\Admin\ProcessOrder.css                      | CSS        |         38 |          0 |          5 |         43 |
+| c:\Users\ACER\Downloads\travelogue_fyp\frontend\src\components\Admin\ProcessOrder.js                       | JavaScript |        165 |          0 |         16 |        181 |
+| c:\Users\ACER\Downloads\travelogue_fyp\frontend\src\components\Admin\ProductReviews.css                    | CSS        |         77 |          6 |         11 |         94 |
+| c:\Users\ACER\Downloads\travelogue_fyp\frontend\src\components\Admin\ProductReviews.js                     | JavaScript |        166 |          0 |         25 |        191 |
+| c:\Users\ACER\Downloads\travelogue_fyp\frontend\src\components\Admin\ProductsList.css                      | CSS        |         50 |          8 |          9 |         67 |
+| c:\Users\ACER\Downloads\travelogue_fyp\frontend\src\components\Admin\ProductsList.js                       | JavaScript |        128 |          1 |         19 |        148 |
+| c:\Users\ACER\Downloads\travelogue_fyp\frontend\src\components\Admin\Sidebar.css                           | CSS        |         44 |          9 |         12 |         65 |
+| c:\Users\ACER\Downloads\travelogue_fyp\frontend\src\components\Admin\Sidebar.js                            | JavaScript |        113 |          0 |          9 |        122 |
+| c:\Users\ACER\Downloads\travelogue_fyp\frontend\src\components\Admin\TravelAgencyDashboard.js              | JavaScript |         77 |         11 |         21 |        109 |
+| c:\Users\ACER\Downloads\travelogue_fyp\frontend\src\components\Admin\UpdateProduct.js                      | JavaScript |        400 |        286 |         54 |        740 |
+| c:\Users\ACER\Downloads\travelogue_fyp\frontend\src\components\Admin\UpdateUser.js                         | JavaScript |        128 |          0 |         15 |        143 |
+| c:\Users\ACER\Downloads\travelogue_fyp\frontend\src\components\Admin\UsersList.js                          | JavaScript |        124 |          0 |         22 |        146 |
+| c:\Users\ACER\Downloads\travelogue_fyp\frontend\src\components\Cart\Cart.css                               | CSS        |        158 |          0 |         20 |        178 |
+| c:\Users\ACER\Downloads\travelogue_fyp\frontend\src\components\Cart\Cart.js                                | JavaScript |         81 |         14 |         10 |        105 |
+| c:\Users\ACER\Downloads\travelogue_fyp\frontend\src\components\Cart\CartItemCard.css                       | CSS        |         50 |          0 |          9 |         59 |
+| c:\Users\ACER\Downloads\travelogue_fyp\frontend\src\components\Cart\CartItemCard.js                        | JavaScript |         16 |          0 |          2 |         18 |
+| c:\Users\ACER\Downloads\travelogue_fyp\frontend\src\components\Cart\CheckoutSteps.css                      | CSS        |         11 |          0 |          2 |         13 |
+| c:\Users\ACER\Downloads\travelogue_fyp\frontend\src\components\Cart\CheckoutSteps.js                       | JavaScript |         45 |          0 |          5 |         50 |
+| c:\Users\ACER\Downloads\travelogue_fyp\frontend\src\components\Cart\ConfirmOrder.css                       | CSS        |        165 |          0 |         34 |        199 |
+| c:\Users\ACER\Downloads\travelogue_fyp\frontend\src\components\Cart\ConfirmOrder.js                        | JavaScript |         88 |          2 |          9 |         99 |
+| c:\Users\ACER\Downloads\travelogue_fyp\frontend\src\components\Cart\OrderSuccess.css                       | CSS        |         41 |          0 |          2 |         43 |
+| c:\Users\ACER\Downloads\travelogue_fyp\frontend\src\components\Cart\OrderSuccess.js                        | JavaScript |         15 |          0 |          3 |         18 |
+| c:\Users\ACER\Downloads\travelogue_fyp\frontend\src\components\Cart\Payment.css                            | CSS        |         74 |          0 |         12 |         86 |
+| c:\Users\ACER\Downloads\travelogue_fyp\frontend\src\components\Cart\Payment.js                             | JavaScript |        135 |          0 |         19 |        154 |
+| c:\Users\ACER\Downloads\travelogue_fyp\frontend\src\components\Cart\Shipping.css                           | CSS        |         94 |          0 |         12 |        106 |
+| c:\Users\ACER\Downloads\travelogue_fyp\frontend\src\components\Cart\Shipping.js                            | JavaScript |        112 |          0 |         15 |        127 |
+| c:\Users\ACER\Downloads\travelogue_fyp\frontend\src\components\Home\Home.css                               | CSS        |        412 |         39 |         97 |        548 |
+| c:\Users\ACER\Downloads\travelogue_fyp\frontend\src\components\Home\Home.js                                | JavaScript |        440 |          0 |         74 |        514 |
+| c:\Users\ACER\Downloads\travelogue_fyp\frontend\src\components\Home\ProductCard.css                        | CSS        |         70 |          5 |         19 |         94 |
+| c:\Users\ACER\Downloads\travelogue_fyp\frontend\src\components\Home\ProductCard.js                         | JavaScript |         30 |          0 |          8 |         38 |
+| c:\Users\ACER\Downloads\travelogue_fyp\frontend\src\components\Home\VehicleCard.css                        | CSS        |         58 |          2 |         12 |         72 |
+| c:\Users\ACER\Downloads\travelogue_fyp\frontend\src\components\Home\VehicleCard.js                         | JavaScript |         32 |          0 |          8 |         40 |
+| c:\Users\ACER\Downloads\travelogue_fyp\frontend\src\components\Order\MyOrders.css                          | CSS        |         67 |          0 |         13 |         80 |
+| c:\Users\ACER\Downloads\travelogue_fyp\frontend\src\components\Order\MyOrders.js                           | JavaScript |         99 |          0 |         12 |        111 |
+| c:\Users\ACER\Downloads\travelogue_fyp\frontend\src\components\Order\OrderDetails.css                      | CSS        |         89 |          0 |         20 |        109 |
+| c:\Users\ACER\Downloads\travelogue_fyp\frontend\src\components\Order\OrderDetails.js                       | JavaScript |        103 |          0 |          9 |        112 |
+| c:\Users\ACER\Downloads\travelogue_fyp\frontend\src\components\Product\ProductDetails.css                  | CSS        |        239 |        114 |         61 |        414 |
+| c:\Users\ACER\Downloads\travelogue_fyp\frontend\src\components\Product\ProductDetails.js                   | JavaScript |        402 |          4 |         29 |        435 |
+| c:\Users\ACER\Downloads\travelogue_fyp\frontend\src\components\Product\Products.css                        | CSS        |        341 |         29 |         78 |        448 |
+| c:\Users\ACER\Downloads\travelogue_fyp\frontend\src\components\Product\Products.js                         | JavaScript |        581 |          6 |         40 |        627 |
+| c:\Users\ACER\Downloads\travelogue_fyp\frontend\src\components\Product\ReviewCard.js                       | JavaScript |         20 |          0 |          3 |         23 |
+| c:\Users\ACER\Downloads\travelogue_fyp\frontend\src\components\Product\Search.css                          | CSS        |         71 |          5 |         13 |         89 |
+| c:\Users\ACER\Downloads\travelogue_fyp\frontend\src\components\Product\Search.js                           | JavaScript |         41 |          0 |         13 |         54 |
+| c:\Users\ACER\Downloads\travelogue_fyp\frontend\src\components\Route\AdminProtectedRoute.js                | JavaScript |         15 |          0 |          2 |         17 |
+| c:\Users\ACER\Downloads\travelogue_fyp\frontend\src\components\Route\ProtectedRoute.js                     | JavaScript |         16 |          0 |          2 |         18 |
+| c:\Users\ACER\Downloads\travelogue_fyp\frontend\src\components\Route\TransportProtectedRoute.js            | JavaScript |         15 |          0 |          2 |         17 |
+| c:\Users\ACER\Downloads\travelogue_fyp\frontend\src\components\TransportAgency\NewVehicle.css              | CSS        |        148 |         23 |         26 |        197 |
+| c:\Users\ACER\Downloads\travelogue_fyp\frontend\src\components\TransportAgency\NewVehicle.js               | JavaScript |        252 |         27 |         19 |        298 |
+| c:\Users\ACER\Downloads\travelogue_fyp\frontend\src\components\TransportAgency\TransportAgencyDashboard.js | JavaScript |         56 |          0 |         12 |         68 |
+| c:\Users\ACER\Downloads\travelogue_fyp\frontend\src\components\TransportAgency\UpdateVehicle.js            | JavaScript |        292 |         42 |         26 |        360 |
+| c:\Users\ACER\Downloads\travelogue_fyp\frontend\src\components\TransportAgency\VehicleReviews.css          | CSS        |         77 |          5 |         12 |         94 |
+| c:\Users\ACER\Downloads\travelogue_fyp\frontend\src\components\TransportAgency\VehicleReviews.js           | JavaScript |        161 |          0 |         22 |        183 |
+| c:\Users\ACER\Downloads\travelogue_fyp\frontend\src\components\TransportAgency\VehiclesList.css            | CSS        |         46 |          0 |         10 |         56 |
+| c:\Users\ACER\Downloads\travelogue_fyp\frontend\src\components\TransportAgency\VehiclesList.js             | JavaScript |        119 |          2 |         18 |        139 |
+| c:\Users\ACER\Downloads\travelogue_fyp\frontend\src\components\User\ForgotPassword.css                     | CSS        |        108 |          0 |         16 |        124 |
+| c:\Users\ACER\Downloads\travelogue_fyp\frontend\src\components\User\ForgotPassword.js                      | JavaScript |         65 |          0 |         14 |         79 |
+| c:\Users\ACER\Downloads\travelogue_fyp\frontend\src\components\User\LoginSignup.css                        | CSS        |        313 |         20 |         49 |        382 |
+| c:\Users\ACER\Downloads\travelogue_fyp\frontend\src\components\User\LoginSignup.js                         | JavaScript |        244 |        139 |         26 |        409 |
+| c:\Users\ACER\Downloads\travelogue_fyp\frontend\src\components\User\Profile.css                            | CSS        |        135 |         12 |         22 |        169 |
+| c:\Users\ACER\Downloads\travelogue_fyp\frontend\src\components\User\Profile.js                             | JavaScript |        103 |          0 |          5 |        108 |
+| c:\Users\ACER\Downloads\travelogue_fyp\frontend\src\components\User\ResetPassword.css                      | CSS        |         94 |          0 |         16 |        110 |
+| c:\Users\ACER\Downloads\travelogue_fyp\frontend\src\components\User\ResetPassword.js                       | JavaScript |         80 |          0 |         14 |         94 |
+| c:\Users\ACER\Downloads\travelogue_fyp\frontend\src\components\User\UpdatePassword.css                     | CSS        |         98 |          7 |         16 |        121 |
+| c:\Users\ACER\Downloads\travelogue_fyp\frontend\src\components\User\UpdatePassword.js                      | JavaScript |        102 |          0 |         12 |        114 |
+| c:\Users\ACER\Downloads\travelogue_fyp\frontend\src\components\User\UpdateProfile.css                      | CSS        |        152 |         10 |         27 |        189 |
+| c:\Users\ACER\Downloads\travelogue_fyp\frontend\src\components\User\UpdateProfile.js                       | JavaScript |        263 |         23 |         19 |        305 |
+| c:\Users\ACER\Downloads\travelogue_fyp\frontend\src\components\Vehicles\VehicleDetails.css                 | CSS        |        219 |         60 |         50 |        329 |
+| c:\Users\ACER\Downloads\travelogue_fyp\frontend\src\components\Vehicles\VehicleDetails.js                  | JavaScript |        307 |          0 |         33 |        340 |
+| c:\Users\ACER\Downloads\travelogue_fyp\frontend\src\components\Vehicles\Vehicles.css                       | CSS        |        331 |         22 |         72 |        425 |
+| c:\Users\ACER\Downloads\travelogue_fyp\frontend\src\components\Vehicles\Vehicles.js                        | JavaScript |        269 |         34 |         68 |        371 |
+| c:\Users\ACER\Downloads\travelogue_fyp\frontend\src\components\layout\Contact.css                          | CSS        |         25 |          0 |          3 |         28 |
+| c:\Users\ACER\Downloads\travelogue_fyp\frontend\src\components\layout\Contact.js                           | JavaScript |         13 |          0 |          2 |         15 |
+| c:\Users\ACER\Downloads\travelogue_fyp\frontend\src\components\layout\Footer\Footer.css                    | CSS        |         48 |          0 |          2 |         50 |
+| c:\Users\ACER\Downloads\travelogue_fyp\frontend\src\components\layout\Footer\Footer.js                     | JavaScript |         80 |          0 |         14 |         94 |
+| c:\Users\ACER\Downloads\travelogue_fyp\frontend\src\components\layout\Header\Header.css                    | CSS        |         38 |          2 |          6 |         46 |
+| c:\Users\ACER\Downloads\travelogue_fyp\frontend\src\components\layout\Header\Header.js                     | JavaScript |         31 |          0 |          8 |         39 |
+| c:\Users\ACER\Downloads\travelogue_fyp\frontend\src\components\layout\Header\MetaData.js                   | JavaScript |         10 |          0 |          2 |         12 |
+| c:\Users\ACER\Downloads\travelogue_fyp\frontend\src\components\layout\Header\UserOptions.js                | JavaScript |        117 |          0 |         12 |        129 |
+| c:\Users\ACER\Downloads\travelogue_fyp\frontend\src\components\layout\Loader\Loader.css                    | CSS        |         20 |          0 |          4 |         24 |
+| c:\Users\ACER\Downloads\travelogue_fyp\frontend\src\components\layout\Loader\Loader.js                     | JavaScript |         10 |          0 |          2 |         12 |
+| c:\Users\ACER\Downloads\travelogue_fyp\frontend\src\constants\cartConstants.js                             | JavaScript |          4 |          0 |          0 |          4 |
+| c:\Users\ACER\Downloads\travelogue_fyp\frontend\src\constants\orderConstants.js                            | JavaScript |         21 |          0 |          8 |         29 |
+| c:\Users\ACER\Downloads\travelogue_fyp\frontend\src\constants\productConstants.js                          | JavaScript |         33 |          0 |         12 |         45 |
+| c:\Users\ACER\Downloads\travelogue_fyp\frontend\src\constants\userConstants.js                             | JavaScript |         40 |          0 |         14 |         54 |
+| c:\Users\ACER\Downloads\travelogue_fyp\frontend\src\constants\vehicleConstants.js                          | JavaScript |         33 |          0 |         10 |         43 |
+| c:\Users\ACER\Downloads\travelogue_fyp\frontend\src\index.css                                              | CSS        |         12 |          0 |          2 |         14 |
+| c:\Users\ACER\Downloads\travelogue_fyp\frontend\src\index.js                                               | JavaScript |         21 |          0 |          3 |         24 |
+| c:\Users\ACER\Downloads\travelogue_fyp\frontend\src\reducers\cartReducer.js                                | JavaScript |         43 |          1 |          2 |         46 |
+| c:\Users\ACER\Downloads\travelogue_fyp\frontend\src\reducers\orderReducer.js                               | JavaScript |        173 |          2 |         13 |        188 |
+| c:\Users\ACER\Downloads\travelogue_fyp\frontend\src\reducers\productReducer.js                             | JavaScript |        266 |          4 |         16 |        286 |
+| c:\Users\ACER\Downloads\travelogue_fyp\frontend\src\reducers\userReducer.js                                | JavaScript |        244 |          0 |         22 |        266 |
+| c:\Users\ACER\Downloads\travelogue_fyp\frontend\src\reducers\vehicleReducer.js                             | JavaScript |        266 |          7 |         16 |        289 |
+| c:\Users\ACER\Downloads\travelogue_fyp\frontend\src\store.js                                               | JavaScript |         66 |          0 |          6 |         72 |
+| c:\Users\ACER\Downloads\travelogue_fyp\package-lock.json                                                   | JSON       |      1,135 |          0 |          1 |      1,136 |
+| c:\Users\ACER\Downloads\travelogue_fyp\package.json                                                        | JSON       |         28 |          0 |          1 |         29 |
+| Total                                                                                                      |            |     35,409 |      1,252 |      2,282 |     38,943 |
++------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+

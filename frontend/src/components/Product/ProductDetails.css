@@ -1,0 +1,424 @@
+.detailed-page-animation{
+  width: 200px;
+  margin-left: 5%;
+}
+.review-animation{
+  width: 250px;
+
+}
+
+
+/* Parent div */
+.ProductDetails {
+  width: 100vw;
+  max-width: 100%;
+  box-sizing: border-box;
+  display: flex;
+}
+
+/* 1st child containing backgroundimg & slider */
+.ProductDetails>div {
+  width: 100%;
+  padding: 3vmax;
+}
+
+/* 2nd child containg product details */
+.ProductDetails>div:last-child {
+  align-items: flex-start;
+  background: linear-gradient(to left, #add8e6, #cbe2eb, #1e90ff);
+  background-size: 200% 100%;
+  animation: gradientAnimation 5s linear infinite;
+}
+
+.CarouselImage {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  border: 4px solid whitesmoke;
+  cursor:zoom-in;
+}
+
+.CarouselImage:hover {
+  /* it will scale in an outside style while hovering on card*/
+  transform: scale(1.05);
+}
+
+/* product name */
+.detailsBlock-1>h2 {
+
+  font: 500 1.5vmax "Quicksand", sans-serif;
+  border: 2px solid rgba(250, 235, 215, 0.767);
+  border-radius: 15px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 5px;
+  padding-right: 5px;
+  text-align: center;
+  background-color: rgba(250, 235, 215, 0.767);
+  width: 40%;
+  box-shadow: 0px 0px 7px 0px #000000;
+}
+/* agency name */
+.detailsBlock-1>h5{
+  font-family: 'Quicksand';
+}
+
+/* product number */
+
+.detailsBlock-1>p {
+  color: rgba(54, 54, 54, 0.582);
+  font: 500 1.2vmax "Quicksand", sans-serif;
+}
+
+/* stars & no.of reviews*/
+.detailsBlock-2 {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  border-top: 1px solid rgba(0, 0, 0, 0.205);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.205);
+  width: 70%;
+  padding: 1vmax 0;
+}
+
+/* no.of reviews*/
+.detailsBlock-2-span {
+  font: 500 1.3vmax "Quicksand", sans-serif;
+  color: rgba(0, 0, 0, 0.699);
+}
+
+/* fields heading */
+.fields-heading{
+  font-size: 20px;
+  border: 2px solid rgba(250, 235, 215, 0.767);
+  border-radius: 10px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  padding-left: 5px;
+  background-color: rgba(250, 235, 215, 0.767);
+  box-shadow: 0px 0px 7px 0px #000000;
+  font-family: 'Quicksand', sans-serif;
+  color: #080a72;
+}
+
+.BookingButton{
+  border: none;
+  background-color: #0067a5 !important;
+  border-radius: 20px;
+  padding: 0.6vmax 2vmax;
+  margin: 0.2vmax 0.5vmax;
+  color: white;
+  cursor: pointer;
+  transition: all 0.5s;
+  outline: none;
+  box-shadow: 0px 0px 7px 0px #000000;
+}
+.BookingButton:hover {
+  transform: scale(1.1);
+}
+
+.submitReview {
+  border: none;
+  background-color: #0067a5 !important;
+  font-family: 'Quicksand', sans-serif;
+  border-radius: 20px;
+  padding: 0.6vmax 2vmax;
+  color: white;
+  cursor: pointer;
+  transition: all 0.5s;
+  outline: none;
+  box-shadow: 0px 0px 7px 0px #000000;
+}
+
+.submitReview:hover {
+  transform: scale(1.1);
+}
+
+/*
+.detailsBlock-3 {
+  width: 70%;
+}
+*/
+
+/*
+.detailsBlock-3>h1 {
+  font: 500 1.8vmax "Roboto", sans-serif;
+  margin: 1vmax 0;
+}
+*/
+
+/*
+.detailsBlock-3-1 {
+  display: flex;
+  align-items: center;
+}
+*/
+
+
+/* 
+.detailsBlock-3-1>button {
+  cursor: pointer;
+  color: white;
+  transition: all 0.5s;
+}
+
+.detailsBlock-3-1>button:hover {
+  background-color: rgba(0, 0, 0, 0.767);
+}
+
+.detailsBlock-3-1>input {
+  border: none;
+  padding: 0.5vmax;
+  width: 1.5vmax;
+  text-align: center;
+  outline: none;
+  font: 400 0.8vmax "Roboto", sans-serif;
+  color: rgba(0, 0, 0, 0.74);
+}
+
+.detailsBlock-3-1>button:last-child {
+  border: none;
+  cursor: pointer;
+  color: white;
+  transition: all 0.5s;
+  background-color: #0067a5;
+  font: 500 0.7vmax "Roboto", sans-serif;
+  border-radius: 20px;
+  padding: 0.5vmax 2vmax;
+  margin: 1vmax;
+  outline: none;
+
+}
+
+.detailsBlock-3-1>button:last-child:hover {
+  transform: scale(1.1);
+}
+
+*/
+
+/*
+.detailsBlock-3>p {
+  padding: 1vmax 0;
+  color: rgba(0, 0, 0, 0.651);
+  font: 400 1vmax "Roboto", sans-serif;
+  margin: 1vmax 0;
+}
+*/
+
+/*
+.detailsBlock-4 {
+  color: rgba(0, 0, 0, 0.897);
+  font: 500 1.2vmax "Roboto", sans-serif;
+}
+*/
+
+/*
+.detailsBlock-4>p {
+  color: rgba(0, 0, 0, 0.534);
+  font: 300 0.8vmax "Roboto", sans-serif;
+}
+*/
+
+
+
+.submitDialog {
+  display: flex;
+  flex-direction: column;
+}
+
+.submitDialogTextArea {
+  border: 1px solid rgba(0, 0, 0, 0.082);
+  margin: 1vmax 0;
+  outline: none;
+  padding: 1rem;
+  font: 300 1rem "Roboto", sans-serif;
+}
+
+.handle-review{
+  margin-left: 35%;
+  margin-right: 35%;
+}
+.reviews-heading {
+  color: #486ee0;
+  font-family: 'Quicksand', sans-serif;
+  margin-top: 85%;
+  margin-left: 20%;
+  animation: heading-animation 1s ease-in-out infinite;
+}
+
+.reviews {
+  display: flex;
+  overflow: auto;
+}
+
+.reviewCard {
+  flex: none;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.226);
+  border: 3px solid rgba(0, 0, 0, 0.397);
+  border-radius: 20px;
+  width: 30vmax;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 1vmax;
+  padding: 3vmax;
+  box-shadow: 0px 0px 15px 0px #000000;
+  /* it will animate in an outside style*/
+  transition: transform 0.2s, box-shadow 0.2s;
+  background: linear-gradient(to left, #add8e6, #cbe2eb, #1e90ff);
+  background-size: 200% 100%;
+  animation: gradientAnimation 5s linear infinite;
+}
+
+.reviewCard:hover{
+  /* it will scale in an outside style while hovering on card*/
+  transform: scale(1.05);
+  box-shadow: 0px 0px 15px 0px #000000;
+  /* Changing box shadow on hover */
+}
+
+.reviewCard>img {
+  width: 5vmax;
+  box-shadow: 0px 0px 15px 0px #000000;
+  /* Changing box shadow on hover */
+  border-radius: 70px;
+}
+
+.reviewCard>p {
+  color: rgba(0, 0, 0, 0.836);
+  font: 700 1vmax "Roboto", sans-serif;
+}
+
+/*
+.detailsBlock-5 {
+  margin-top: 1rem;
+}
+*/
+
+/*
+.detailsBlock-5 h4 {
+  color: #333;
+  margin-bottom: 0.5rem;
+}
+*/
+
+/*
+.detailsBlock-5 ul {
+  list-style: disc;
+  margin-left: 2rem;
+}
+*/
+
+/*
+.detailsBlock-5 li {
+  color: #666;
+  font-size: 0.9rem;
+  margin-bottom: 0.3rem;
+}
+*/
+
+
+.reviewCardComment {
+  color: rgba(0, 0, 0, 0.575);
+  font: 500 1vmax "Roboto";
+}
+
+.noReviews {
+  font: 400 1.3vmax "Gill Sans", sans-serif;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.548);
+}
+
+/* to increase the widths of custom selected things like choose rooms, choose guests, choose pickup points, dates etc */
+.custom-select{
+  width: 100%;
+}
+
+@media screen and (max-width: 600px) {
+  .ProductDetails {
+    flex-direction: column;
+    height: unset;
+  }
+
+  .ProductDetails>div:last-child {
+    align-items: center;
+  }
+
+  .detailsBlock-1>h2 {
+    font-size: 2.8vmax;
+    text-align: center;
+  }
+
+  .detailsBlock-1>p {
+   
+    font: 500 3vmax "Roboto", sans-serif;
+  }
+
+  .detailsBlock-2 {
+    justify-content: center;
+  }
+ 
+  .handle-review{
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .detailsBlock-2>span {
+    font-size: 3vmax;
+  }
+  
+
+  .detailsBlock-3>h1 {
+    font: 500 3vmax "Roboto";
+    text-align: center;
+    text-decoration: underline;
+  }
+
+  .detailsBlock-3-1 {
+    flex-direction: column;
+  }
+
+  .detailsBlock-3-1-1 {
+    padding: 2vmax 0;
+  }
+
+  .detailsBlock-3-1-1>button {
+    padding: 1.2vmax;
+    width: 4vmax;
+  }
+
+  .detailsBlock-3-1-1>input {
+    padding: 1.5vmax;
+    width: 3vmax;
+    font: 400 1.8vmax "Roboto", sans-serif;
+  }
+
+  .detailsBlock-3-1>button:last-child {
+    font: 500 1.7vmax "Roboto", sans-serif;
+    padding: 1.5vmax;
+    width: 20vmax;
+    margin: 3vmax 0;
+  }
+
+  .detailsBlock-3>p {
+    padding: 2.5vmax 0;
+    text-align: center;
+    font: 400 2vmax "Roboto", sans-serif;
+  }
+
+  .detailsBlock-4 {
+    font: 500 2.5vmax "Roboto", sans-serif;
+  }
+
+  .detailsBlock-4>p {
+    font: 300 1.8vmax "Roboto", sans-serif;
+  }
+
+  .reviewCard>p {
+    font: 600 3vw "Roboto", sans-serif;
+  }
+
+  .reviewCardComment {
+    font: 300 2.5vw "Roboto";
+  }
+}

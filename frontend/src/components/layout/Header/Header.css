@@ -1,0 +1,45 @@
+.logo-image{
+  margin-right: 0;
+}
+.text-white{
+  font-family: 'Quicksand', sans-serif;
+}
+.nav-link:hover {
+  color: #92cbdf;
+}
+
+
+.animated-logo {
+  animation: logoanimation 2.5s ease-in-out infinite;;
+}
+@keyframes logoanimation {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.speedDial {
+  position: fixed;
+  right: 3vmax;
+  top: 8vmax;
+}
+
+.speedDialIcon {
+  width: 56px;
+  height: 56px;
+  border-radius: 100%;
+}
+
+.bg-color {
+  background-color: #0067a5;
+   /* background color of 3 color ranges (gradient) */
+  /* color is changing towards the left */
+  background: linear-gradient(to left, #2a6579, #4445a8, #032241);
+  background-size: 200% 100%;
+  animation: gradientAnimation 5s linear infinite;
+}

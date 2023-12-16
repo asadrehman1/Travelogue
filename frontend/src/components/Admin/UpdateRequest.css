@@ -1,0 +1,13 @@
+.UpdateRequestForm {
+    margin: 10%;
+    padding: 3vmax;
+    background-color: rgba(211, 211, 211, 0.863);
+    border-radius: 20px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 8);
+
+}
+.approve-label{
+
+    color: #486ee0;
+   
+}

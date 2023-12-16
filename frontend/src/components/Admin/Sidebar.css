@@ -1,0 +1,65 @@
+/* whole side bar */
+.sidebar {
+
+  display: flex;
+  flex-direction: column;
+  padding: 4rem 0;
+  background: linear-gradient(to left, #2a6579, #4445a8, #032241);
+  background-size: 200% 100%;
+  animation: gradientAnimation 5s linear infinite;
+
+}
+
+/* padding between fields */
+.sidebar>a:first-child {
+  padding: 20;
+}
+
+/* sidebar fields name Profile, bookings, review etc */
+.sidebar a {
+  text-decoration: none;
+  color: antiquewhite;
+  font-family: 'Quicksand', sans-serif;
+  padding: 2rem;
+  transition: all 0.5s;
+}
+
+/* on hovering fields */
+.sidebar a:hover {
+  color: skyblue;
+  /* scaling effect */
+  transform: scale(1.20);
+}
+
+/* logo img */
+.sidebar>a>img {
+  transition: all 0.5s;
+}
+
+.sidebar>a>img:hover {
+  filter: drop-shadow();
+}
+
+/* to make fields & icons in a flex box */
+.sidebar a>P {
+  display: flex;
+  align-items: center;
+}
+
+/* icons */
+.sidebar a>p>svg {
+  margin-right: 0.5rem;
+}
+
+@media screen and (max-width: 600px) {
+  .sidebar a:hover {
+    color: skyblue;
+    /* scaling effect */
+    transform: scale(1.10);
+  }
+
+  .sidebar-logo {
+    width: 30%;
+  }
+
+}

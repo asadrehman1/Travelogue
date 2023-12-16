@@ -1,0 +1,189 @@
+/* whole container containing backgrpund image & update profile Box */
+.updateProfileContainer {
+  width: 100vw;
+  height: 100vh;
+  max-width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Quicksand", sans-serif;
+}
+
+/* update profile whole box pop up */
+.updateProfileBox {
+  background-color: rgba(211, 211, 211, 0.774);
+  width: 27vw;
+  height: 80vh;
+  box-sizing: border-box;
+  overflow: hidden;
+  border-radius: 20px;
+  box-shadow: 0px 0px 20px 0px #000000;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+/* heading */
+.updateProfileHeading {
+  text-align: center;
+  margin-bottom: 35px;
+  text-decoration: none;
+  color: #0067a5;
+  font: 400 1.5vmax "Quicksand";
+  padding-top: 2px;
+  padding-left: 20px;
+}
+
+/* form */
+.updateProfileForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+  padding: 2vmax;
+  justify-content: space-evenly;
+  height: 70%;
+  transition: all 0.5s;
+}
+
+.updateProfileForm>div {
+  display: flex;
+  width: 100%;
+  align-items: center;
+}
+
+/* input fields */
+.updateProfileForm>div>input {
+  padding: 1vmax 4vmax;
+  padding-right: 1vmax;
+  margin: 3px 0;
+  width: 100%;
+  box-sizing: border-box;
+  font: 300 1vmax "Quicksand";
+  outline: none;
+  border-radius: 7px;
+  border: 2px solid #0067a5;
+}
+
+.updateProfileForm>div>textarea {
+  padding: 1vmax 4vmax;
+  padding-right: 1vmax;
+  margin: 3px 0;
+  width: 100%;
+  box-sizing: border-box;
+  border-radius: 7px;
+  border: 2px solid #0067a5;
+  font: 300 0.9vmax "Roboto";
+  outline: none;
+}
+
+/* logos */
+.updateProfileForm>div>svg {
+  position: absolute;
+  transform: translateX(1vmax);
+  font-size: 1.6vmax;
+  color: #0067a5;
+}
+
+/* profile pic*/
+#updateProfileImage>img {
+  width: 3vmax;
+  border-radius: 100%;
+  margin: 1vmax;
+}
+
+#updateProfileImage>input {
+  display: flex;
+  padding: 0%;
+}
+
+/* choose file field */
+#updateProfileImage>input::file-selector-button {
+  cursor: pointer;
+  width: 100%;
+  z-index: 2;
+  height: 6.35vh;
+  border: none;
+  margin: 0%;
+  font: 300 1vmax "Quicksand";
+  transition: all 0.5s;
+  padding: 0 1vmax;
+  color: black;
+  background-color: rgb(255, 255, 255);
+}
+
+#updateProfileImage>input::file-selector-button:hover {
+  background-color: black;
+  color: antiquewhite;
+  border-color: black;
+}
+
+/* update button */
+.updateProfileBtn {
+
+  background-color:  #0067a5;
+  color: white;
+  font: 300 1vmax "Quicksand";
+  width: 100%;
+  padding: 0.8vmax;
+  cursor: pointer;
+  transition: all 0.5s;
+  outline: none;
+  border-radius: 7px;
+  border: 2px solid #0067a5;
+  
+}
+
+.updateProfileBtn:hover {
+  background-color: black;
+  border-color: black;
+}
+
+/* cross button */
+.cross-icon2{
+  color: #0067a5;
+}
+@media screen and (max-width: 600px) {
+  .updateProfileContainer {
+    background-color: white;
+  }
+
+  .updateProfileBox {
+    width: 100vw;
+    height: 95vh;
+  }
+
+  .updateProfileForm {
+    padding: 5vmax;
+  }
+
+  .updateProfileForm>div>input {
+    padding: 2.5vmax 5vmax;
+    font: 300 1.7vmax "Quicksand";
+  }
+
+  .updateProfileForm>div>textarea {
+    padding: 2.5vmax 100vmax;
+    font: 300 1.7vmax "Quicksand";
+  }
+
+  .updateProfileForm>div>svg {
+    font-size: 2.8vmax;
+  }
+
+
+
+
+  #updateProfileImage>img {
+    width: 8vmax;
+    border-radius: 100%;
+  }
+
+  #updateProfileImage>input::file-selector-button {
+    height: 7vh;
+    font: 400 1.8vmax "Roboto";
+  }
+
+  .updateProfileBtn {
+    font: 300 1.9vmax "Roboto";
+    padding: 1.8vmax;
+  }
+}

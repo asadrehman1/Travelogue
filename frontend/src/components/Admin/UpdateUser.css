@@ -1,0 +1,73 @@
+.UpdateUserForm {
+    margin: 10%;
+    padding: 3vmax;
+    background-color: rgba(211, 211, 211, 0.863);
+    border-radius: 20px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 8);
+}
+
+.UpdateUserForm>div {
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+
+/* input fields, text fields, choose file fields */
+.UpdateUserForm>div>input,
+.UpdateUserForm>div>select,
+.UpdateUserForm>div>textarea {
+    padding: 1vmax 3vmax;
+    padding-right: 1vmax;
+    margin: 5px;
+    width: 100%;
+    box-sizing: border-box;
+    border: 3px solid #0067a5;
+    border-radius: 7px;
+    font: 300 1vmax "Quicksand";
+    outline: none;
+}
+
+/* hover effect on fields */
+.UpdateUserForm>div>input:focus,
+.UpdateUserForm>div>select:focus,
+.UpdateUserForm>div>textarea:focus {
+    border-color: green;
+}
+
+.UpdateUserForm>div>svg {
+
+    transform: translateX(2.3vmax);
+    font-size: 1.6vmax;
+    color: #0067a5;
+}
+
+#UpdateUserFormFile>input {
+    display: flex;
+    padding: 0%;
+    margin-left: 4.5%;
+}
+
+/* choose files button */
+#UpdateUserFormFile>input::file-selector-button {
+    cursor: pointer;
+    width: 100%;
+    z-index: 2;
+    border: none;
+    margin: 0%;
+    font: 400 1vmax "Quicksand";
+    transition: all 0.5s;
+    color: rgba(0, 0, 0, 0.623);
+    background-color: rgb(255, 255, 255);
+    height: 45px;
+
+}
+
+#UpdateUserForm>input::file-selector-button:hover {
+    background-color: rgb(235, 235, 235);
+}
+
+@media screen and (max-width: 600px) {
+    .UpdateUserForm>div>svg {
+        transform: translateX(3.3vmax);
+    }
+}

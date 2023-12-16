@@ -1,0 +1,72 @@
+.card {
+  width: 15rem;
+  height: 20rem; 
+  border: 1px solid;
+  border-color: black;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0px 0px 15px 0px #000000;
+  /* it will animate in an outside style*/
+  transition: transform 0.2s, box-shadow 0.2s;
+  cursor: pointer;
+  margin-right: 4%;
+  margin-bottom: 4%;
+}
+
+
+.vehicleCard {
+  text-decoration: none;
+  font-family: 'Quicksand', sans-serif;
+  color: #0067a5;
+  display: block; 
+}
+
+.vehicleCard>img {
+  height: 200px;
+  object-fit: cover;
+  object-position: center;
+
+  /*top-right, top-left border radius*/
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  padding-top: 6px;
+  padding-left: 6px;
+  padding-right: 6px;
+  padding-bottom: 6px;
+}
+
+.vehicle-title {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+
+.vehicle-price {
+  color: #333;
+}
+
+.card-body {
+
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  background: linear-gradient(to right, #add8e6, #cbe2eb, #1e90ff);
+  background-size: 200% 100%;
+  animation: gradientAnimation 5s linear infinite;
+
+}
+
+.read-more-btn {
+  width: 13rem;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  border: none;
+  border-radius: 10px;
+  background-color: #0c6ac7;
+  color: antiquewhite;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 4);
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+.read-more-btn:hover {
+  background-color: black;
+
+}

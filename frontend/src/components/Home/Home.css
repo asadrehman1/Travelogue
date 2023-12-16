@@ -1,0 +1,548 @@
+.caption-heading {
+  font-size: 50px;
+  text-align: center;
+  font-family: 'Quicksand', sans-serif;
+
+}
+
+.black-clr {
+  color: black;
+}
+
+.white-clr {
+  color: whitesmoke;
+}
+
+.learn-more-btn {
+  text-align: center;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 40px;
+  padding-right: 40px;
+  font-size: 16px;
+  border: 1px solid;
+  border-radius: 30px;
+  background-color: #486ee0;
+  border-color: #486ee0;
+  color: antiquewhite;
+  cursor: pointer;
+  margin-left: 6%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 8);
+  transition: box-shadow 0.3s ease-in-out;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.learn-more-btn:hover {
+  background-color: black;
+  color: antiquewhite;
+  border-color: black;
+  /* it will scale in an outside style while hovering on card*/
+  transform: scale(1.05);
+  box-shadow: 0px 0px 15px 0px #000000;
+  /* Changing box shadow on hover */
+}
+
+.max-width {
+  max-width: 1400px;
+}
+
+.about-tourpackage-section {
+
+  margin-bottom: 6%;
+  /* background color of 3 color ranges (gradient) */
+  /* color is changing towards the left */
+  background: linear-gradient(to left, #add8e6, #cbe2eb, #1e90ff);
+  background-size: 200% 100%;
+  animation: gradientAnimation 5s linear infinite;
+}
+
+/* gradient animation */
+@keyframes gradientAnimation {
+  0% {
+    background-position: 0% 0%;
+  }
+
+  100% {
+    background-position: 100% 0%;
+  }
+}
+
+.section-heading {
+  margin-left: 37%;
+  color: #1742c2;
+  font-family: 'Quicksand', sans-serif;
+  animation: heading-animation 1s ease-in-out infinite;
+}
+
+@keyframes heading-animation {
+  0% {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+
+  50% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+
+  100% {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+}
+
+
+
+.section-para {
+  margin-left: 6%;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.section-img {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-right: 12px;
+  padding-left: 12px;
+  box-shadow: 0px 0px 15px 0px #000000;
+  /* it will animate in an outside style*/
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.section-img:hover {
+  /* it will scale in an outside style while hovering on card*/
+  transform: scale(1.05);
+  box-shadow: 0px 0px 15px 0px #000000;
+  /* Changing box shadow on hover */
+}
+
+.about-vehiclepackage-section {
+
+  /* background color of 3 color ranges (gradient) */
+  /* color is changing towards the left */
+  background: linear-gradient(to left, #add8e6, #cbe2eb, #1e90ff);
+  background-size: 200% 100%;
+  animation: gradientAnimation 5s linear infinite;
+  margin-top: 7%;
+  margin-bottom: 6%;
+}
+
+/* gradient animation */
+@keyframes gradientAnimation {
+  0% {
+    background-position: 0% 0%;
+  }
+
+  100% {
+    background-position: 100% 0%;
+  }
+}
+
+.vehicle-section-heading {
+  margin-left: 45%;
+  color: #486ee0;
+  font-family: 'Quicksand', sans-serif;
+  text-align: center;
+  animation: heading-animation 1s ease-in-out infinite;
+}
+
+@keyframes heading-animation {
+  0% {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+
+  50% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+
+  100% {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+}
+
+.vehicle-section-para {
+  margin-right: 6%;
+  margin-left: 3%;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.booking-btn {
+  text-align: center;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 40px;
+  padding-right: 40px;
+  font-size: 16px;
+  border: 1px solid;
+  border-radius: 30px;
+  background-color: #486ee0;
+  border-color: #486ee0;
+  color: antiquewhite;
+  cursor: pointer;
+  margin-right: 30%;
+  margin-left: 30%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 8);
+  transition: box-shadow 0.3s ease-in-out;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.booking-btn:hover {
+  background-color: black;
+  color: antiquewhite;
+  border-color: black;
+  /* it will scale in an outside style while hovering on card*/
+  transform: scale(1.05);
+  box-shadow: 0px 0px 15px 0px #000000;
+  /* Changing box shadow on hover */
+}
+
+/* setting the position to add overlay transparent effect on slider images */
+.carousel-item {
+  position: relative;
+}
+
+.image-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.35);
+}
+
+/* setting the position to add overlay transparent effect on slider images */
+.carousel-caption {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  color: white;
+}
+
+.collage-section {
+  margin-top: 6%;
+  margin-bottom: 7%;
+}
+
+.collage-img1 {
+  margin-bottom: 10%;
+  box-shadow: 0px 0px 15px 0px #000000;
+  /* it will animate in an outside style*/
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.collage-img2 {
+  margin-top: 20%;
+  margin-bottom: 10%;
+  box-shadow: 0px 0px 15px 0px #000000;
+  /* it will animate in an outside style*/
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.collage-img5 {
+  margin-top: 20%;
+  box-shadow: 0px 0px 15px 0px #000000;
+  /* it will animate in an outside style*/
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.collage-img {
+  box-shadow: 0px 0px 15px 0px #000000;
+  /* it will animate in an outside style*/
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.collage-img:hover {
+  /* it will scale in an outside style while hovering on card*/
+  transform: scale(1.05);
+  box-shadow: 0px 0px 15px 0px #000000;
+  /* Changing box shadow on hover */
+}
+
+.collage-img1:hover {
+  /* it will scale in an outside style while hovering on card*/
+  transform: scale(1.05);
+  box-shadow: 0px 0px 15px 0px #000000;
+  /* Changing box shadow on hover */
+}
+
+.collage-img2:hover {
+  /* it will scale in an outside style while hovering on card*/
+  transform: scale(1.05);
+  box-shadow: 0px 0px 15px 0px #000000;
+  /* Changing box shadow on hover */
+}
+
+.collage-img5:hover {
+  /* it will scale in an outside style while hovering on card*/
+  transform: scale(1.05);
+  box-shadow: 0px 0px 15px 0px #000000;
+  /* Changing box shadow on hover */
+}
+
+.collage-heading {
+  margin-left: 10%;
+  color: #486ee0;
+  font-family: 'Dancing Script';
+  font-size: 25px;
+}
+
+.collage-sub-heading {
+  margin-left: 40%;
+  color: #486ee0;
+  font-family: 'Quicksand', sans-serif;
+  animation: heading-animation 1s ease-in-out infinite;
+
+}
+
+
+.collage-para {
+  margin-left: 10%;
+  font-size: 20px;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.coll-img-set {
+  margin-left: 8%;
+  box-shadow: 0px 0px 15px 0px #000000;
+  /* it will animate in an outside style*/
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.testimonialssection {
+  margin-bottom: 6%;
+}
+
+
+.package-animation {
+  width: 200px;
+  margin-left: 5%;
+}
+
+.car-animation {
+  width: 280px;
+  margin-left: 3%;
+}
+
+.mb-3 {
+  color: #486ee0;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 900;
+}
+
+
+/* to adjust the position of bonfire img */
+.image-container {
+  position: relative;
+}
+
+.bonfire-img {
+  width: 200px;
+
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  /* rotating bonfire img */
+  transform: rotate(340deg);
+
+  /* keeping bonfire img infront of the back image */
+  z-index: 1;
+
+  border: 4px solid;
+  border-color: antiquewhite;
+  box-shadow: 0px 0px 15px 0px #000000;
+  /* it will animate in an outside style*/
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.bonfire-img:hover {
+  /* it will scale in an outside style while hovering on card*/
+  transform: scale(1.05);
+  box-shadow: 0px 0px 15px 0px #000000;
+  /* Changing box shadow on hover */
+}
+
+.rotated-jeep {
+  width: 180px;
+
+  position: absolute;
+  top: 0;
+  right: 0;
+
+  /* rotating jeep img */
+  transform: rotate(20deg);
+
+  /* keeping jeep img infront of the bus image */
+  z-index: 1;
+
+  border: 4px solid;
+  border-color: antiquewhite;
+  box-shadow: 0px 0px 15px 0px #000000;
+  /* it will animate in an outside style*/
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.rotated-jeep:hover {
+  /* it will scale in an outside style while hovering on card*/
+  transform: scale(1.05);
+  box-shadow: 0px 0px 15px 0px #000000;
+  /* Changing box shadow on hover */
+}
+
+
+.featured-Heading1-animation {
+  width: 200px;
+  margin-left: 5%;
+}
+
+.featured-Heading1-section {
+
+  margin-bottom: 3%;
+  background: linear-gradient(to left, #add8e6, #cbe2eb, #1e90ff);
+  background-size: 200% 100%;
+  animation: gradientAnimation 5s linear infinite;
+  width: 40%;
+  border-top-right-radius: 50px;
+  border-bottom-left-radius: 50px;
+}
+
+.featured-Heading1 {
+
+  margin-top: 40%;
+  margin-left: 30%;
+  color: #486ee0;
+  font-family: 'Quicksand', sans-serif;
+  animation: heading-animation 1s ease-in-out infinite;
+}
+
+.featured-Heading2-animation {
+  width: 200px;
+  margin-left: 5%;
+}
+
+.featured-Heading2-section {
+  margin-bottom: 3%;
+  background: linear-gradient(to left, #add8e6, #cbe2eb, #1e90ff);
+  background-size: 200% 100%;
+  animation: gradientAnimation 5s linear infinite;
+  width: 40%;
+  border-top-right-radius: 50px;
+  border-bottom-left-radius: 50px;
+}
+
+.featured-Heading2 {
+
+  margin-left: 37%;
+  margin-top: 40%;
+  color: #486ee0;
+  font-family: 'Quicksand', sans-serif;
+  animation: heading-animation 1s ease-in-out infinite;
+}
+
+.testimonials-animation {
+  width: 230px;
+  margin-left: 5%;
+}
+
+.testimonials-section {
+  margin-top: 7%;
+  margin-bottom: 5%;
+  background: linear-gradient(to left, #add8e6, #cbe2eb, #1e90ff);
+  background-size: 200% 100%;
+  animation: gradientAnimation 5s linear infinite;
+  width: 40%;
+  border-top-right-radius: 50px;
+  border-bottom-left-radius: 50px;
+}
+
+.testimonials-headiing {
+
+  color: #486ee0;
+  font-family: 'Quicksand', sans-serif;
+  margin-left: 25%;
+  margin-top: 22%;
+  animation: heading-animation 1s ease-in-out infinite;
+}
+
+.banner-container {
+  position: relative;
+  height: 400px;
+  background-color: #0067a5;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.banner {
+  text-align: center;
+  color: #ffffff;
+  padding: 20px;
+}
+
+.banner p {
+  font-size: 18px;
+}
+
+.banner h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.banner a {
+  text-decoration: none;
+}
+
+.banner button {
+  background-color: #0c2b88;
+  color: #ffffff;
+  border: none;
+  padding: 10px 30px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.banner img {
+  width: 100%;
+  width: 100px;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+@media only screen and (max-width: 950px) {
+  .caption-heading {
+    font-size: 20px;
+  }
+
+  .bonfire-img {
+    width: 100px;
+  }
+
+  .rotated-jeep {
+    width: 100px;
+  }
+}
+
+@media only screen and (max-width: 950px) {
+  .featured-Heading1-section {
+   width: 100%;
+  }
+
+  .featured-Heading2-section {
+    width: 100%;
+  }
+
+  .testimonials-section {
+    width: 100%;
+  }
+}

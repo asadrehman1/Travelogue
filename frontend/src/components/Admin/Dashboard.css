@@ -1,0 +1,147 @@
+/* displays sidebar & dashboard in a grid */
+.dashboard {
+  width: 100vw;
+  max-width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 5fr;
+
+}
+
+
+/* container containing whole dashboard data */
+.dashboardContainer {
+  padding: 3rem 0;
+}
+
+/* Dashboard heading */
+.dashboardContainer>h1 {
+  color: antiquewhite;
+  font-family: 'Quicksand', sans-serif;
+  text-align: center;
+  background-color: rgba(12, 57, 121, 0.856);
+  padding: 1.5rem;
+  margin: 0 2rem;
+  border-radius: 15px;
+  box-shadow: 0px 0px 8px 0px #000000;
+}
+
+.dashboardSummary {
+  margin: 2rem 0;
+}
+
+.dashboardSummary>div {
+  display: flex;
+  justify-content: center;
+  
+}
+
+/* no.of users in admin dashboard */
+.dashboardSummary>div>a{
+  background-color: rgba(12, 57, 121, 0.856);
+  color: antiquewhite;
+  box-shadow: 0px 0px 12px 0px #000000;
+}
+
+.dashboardSummary>div>a:hover{
+  transform: scale(1.05);
+}
+
+
+/* dashboard summary paragraph i.e. Total users in AdminDashB, total amount in travelagencyDashB  */
+.dashboardSummary>div>p {
+  color: antiquewhite;
+  font-family: 'Quicksand', sans-serif;
+  text-align: center;
+  background-color: rgba(12, 57, 121, 0.856);
+  text-align: center;
+  padding: 1.5rem;
+  margin: 0 2rem;
+  border-radius: 15px;
+  box-shadow: 0px 0px 12px 0px #000000;
+  cursor: pointer;
+}
+
+.dashboardSummary>div>p:hover {
+  transform: scale(1.05);
+}
+
+/* total users, total travelagencies, total transport agencies in AdminDashB,total packages & total orders in TravelAgencyDashB */
+.dashboardSummaryBox2>a {
+  color: rgb(0, 0, 0);
+  font-family: 'Quicksand', sans-serif;
+  text-align: center;
+  text-decoration: none;
+  padding: 5rem;
+  width: 14vmax;
+  height: 14vmax;
+  margin: 2rem;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+/* total packages circle */
+.dashboardSummaryBox2>a:first-child {
+  background-color: rgba(12, 57, 121, 0.856);
+  color: antiquewhite;
+  box-shadow: 0px 0px 12px 0px #000000;
+}
+
+/* total orders circle */
+.dashboardSummaryBox2>a:last-child {
+  background-color: rgba(12, 57, 121, 0.856);
+  color: antiquewhite;
+  box-shadow: 0px 0px 12px 0px #000000;
+}
+.dashboardSummaryBox2>a:last-child:hover {
+  transform: scale(1.05);
+}
+.dashboardSummaryBox2>a:first-child:hover {
+  transform: scale(1.05);
+}
+
+/* line graph */
+.lineChart {
+  width: 50%;
+  margin: auto;
+  background-color: rgba(211, 211, 211, 0.801);
+  border-radius: 15px;
+  box-shadow: 0px 0px 15px 0px #000000;
+  cursor: pointer;
+}
+.lineChart:hover{
+  transform: scale(1.05);
+}
+
+
+/* circular chart */
+.doughnutChart {
+  width: 20vmax;
+  margin: auto;
+  cursor: pointer;
+}
+
+
+@media screen and (max-width: 600px) {
+
+  .dashboard {
+    grid-template-columns: 1fr;
+  }
+
+  .dashboardContainer {
+    border-left: none;
+  }
+
+  .dashboardSummary>div>p {
+    margin: 0;
+  }
+
+  .dashboardSummaryBox2>a {
+    padding: 3rem;
+    margin: 1rem;
+    font: 300 0.9rem "Roboto";
+  }
+
+}

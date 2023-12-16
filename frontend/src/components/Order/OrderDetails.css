@@ -1,0 +1,122 @@
+
+  
+  .orderDetailsContainer > h1 {
+    font: 300 3vmax "Quicksand";
+    margin: 4vmax 0;
+    color:#0067a5;
+    background-color: rgba(211, 211, 211, 0.842);
+    padding: 0.5% 1%;
+    border-radius: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 8);
+  }
+  
+  .orderDetailsContainer {
+    padding: 5vmax;
+    padding-bottom: 0%;
+  }
+  
+  .orderDetailsContainer > p {
+    font: 400 1.8vmax "Quicksand";
+    background-color: rgba(211, 211, 211, 0.842);
+    padding: 0.5% 1%;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 8);
+  }
+  
+  .orderDetailsContainerBox,
+  .orderDetailsCartItemsContainer {
+    margin: 2vmax;
+  }
+  
+  .orderDetailsContainerBox > div {
+    display: flex;
+    margin: 1vmax 0;
+  }
+  
+  .orderDetailsContainerBox > div > p {
+    font: 400 1vmax "Quicksand";
+    color: black;
+    
+    
+  }
+  .orderDetailsContainerBox > div > span {
+    margin: 0 1vmax;
+    font: 100 1vmax "Quicksand";
+    color: #575757;
+  }
+  
+  .orderDetailsCartItems > p {
+    font: 400 1.8vmax "Quicksand";
+    background-color: rgba(211, 211, 211, 0.842);
+    padding: 0.5% 1%;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 8);
+  }
+  
+  .orderDetailsCartItems {
+    padding: 2vmax 5vmax;
+    border-top: 3px solid rgba(0, 0, 0, 0.164);
+  }
+  
+  .orderDetailsCartItemsContainer > div {
+    display: flex;
+    font: 400 1vmax "Quicksand";
+    align-items: center;
+    margin: 2vmax 0;
+  }
+  
+  .orderDetailsCartItemsContainer > div > img {
+    width: 15vmax;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 8);
+  }
+  
+  .orderDetailsCartItemsContainer > div > a {
+    color: #575757;
+    margin: 0 2vmax;
+    width: 60%;
+    text-decoration: none;
+  }
+  
+  .orderDetailsCartItemsContainer > div > span {
+    font: 100 1vmax "Quicksand";
+    color: #5e5e5e;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .orderDetailsContainer > p {
+      font: 400 6vw "Quicksand";
+    }
+  
+    .orderDetailsContainerBox > div {
+      margin: 6vw 0;
+    }
+  
+    .orderDetailsContainerBox > div > p {
+      font: 400 4vw "Quicksand";
+    }
+    .orderDetailsContainerBox > div > span {
+      font: 100 4vw "Quicksand";
+    }
+  
+    .orderDetailsCartItems > p {
+      font: 400 6vw "Quicksand";
+    }
+  
+    .orderDetailsCartItemsContainer > div {
+      font: 400 4vw "Quicksand";
+      margin: 4vw 0;
+    }
+  
+    .orderDetailsCartItemsContainer > div > img {
+      width: 10vw;
+    }
+  
+    .orderDetailsCartItemsContainer > div > a {
+      margin: 2vw;
+      width: 30%;
+    }
+  
+    .orderDetailsCartItemsContainer > div > span {
+      font: 100 4vw "Quicksand";
+    }
+  }

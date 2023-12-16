@@ -1,0 +1,257 @@
+.confirmOrderPage {
+  height: 100vh;
+  background-color: white;
+  display: grid;
+  grid-template-columns: 6fr 3fr;
+}
+
+
+.confirmshippingArea {
+  padding: 5vmax;
+  padding-bottom: 0%;
+}
+
+/* booking info heading */
+.confirmshippingArea>p {
+  font: 500 1.8vmax "Quicksand";
+  color: #0067a5;
+  border: 3px solid #0067a5;
+  border-radius: 7px;
+  box-shadow: 0px 0px 9px 0px #000000;
+  padding: 0.5vmax;
+  text-align: center;
+
+}
+
+.confirmshippingAreaBox,
+.confirmCartItemsContainer {
+  margin: 2vmax;
+}
+
+.confirmshippingAreaBox>div {
+  display: flex;
+  margin: 1vmax 0;
+}
+
+
+/* datafields names of booking information */
+.confirmshippingAreaBox>div>p {
+  font: 500 1.2vmax "Quicksand";
+  color: #0067a5;
+
+}
+
+/* data coming in booking information fields */
+.confirmshippingAreaBox>div>span {
+  margin: 0 1vmax;
+  font: 500 1.2vmax "Quicksand";
+  color: #575757;
+}
+
+/* your cart items text */
+.confirmCartItems>p {
+  font: 500 1.8vmax "Quicksand";
+  color: #0067a5;
+  border: 3px solid #0067a5;
+  border-radius: 7px;
+  box-shadow: 0px 0px 9px 0px #000000;
+  padding: 0.5vmax;
+  text-align: center;
+}
+
+.confirmCartItems {
+  padding: 5vmax;
+  padding-top: 2vmax;
+
+}
+
+/* div containing package name , image , price*/
+.confirmCartItemsContainer {
+  max-height: 20vmax;
+  overflow-y: auto;
+  overflow-x: auto;
+  background-color: rgba(211, 211, 211, 0.726);
+  border-radius: 15px;
+  box-shadow: 0px 0px 15px 0px #000000;
+  cursor: pointer;
+}
+
+.confirmCartItemsContainer>div {
+  display: flex;
+  font: 500 1.2vmax "Quicksand";
+  align-items: center;
+  justify-content: space-between;
+  margin: 2vmax 0;
+}
+
+/* cart item image */
+.confirmCartItemsContainer>div>img {
+  width: 15vmax;
+  border: 4px solid antiquewhite;
+  border-radius: 10px;
+  box-shadow: 0px 0px 8px 0px #000000;
+  margin-left: 1%;
+}
+
+/* package name */
+.confirmCartItemsContainer>div>a {
+  font: 500 1.2vmax "Quicksand";
+  color: #575757;
+  margin: 0 2vmax;
+  width: 60%;
+  text-decoration: none;
+}
+
+/*package price */
+.confirmCartItemsContainer>div>span {
+  font: 500 1.2vmax "Quicksand";
+  color: #5e5e5e;
+  width: 60%;
+}
+
+/* booking summary div */
+.orderSummary {
+  padding: 5vmax;
+  background-color: rgba(211, 211, 211, 0.726);
+  border-radius: 15px;
+  box-shadow: 0px 0px 15px 0px #000000;
+  margin-left: 1vmax;
+  margin-right: 2vmax;
+}
+
+/* booking summary text */
+.orderSummary>p {
+  text-align: center;
+  font: 500 1.8vmax "Quicksand";
+  color: #0067a5;
+  border: 3px solid #0067a5;
+  border-radius: 7px;
+  box-shadow: 0px 0px 9px 0px #000000;
+  padding: 0.5vmax;
+  width: 100%;
+  margin: auto;
+  box-sizing: border-box;
+  background-color: white;
+  text-align: center;
+}
+
+/* subtotal, GST text */
+.orderSummary>div>div {
+  display: flex;
+  font: 500 1.2vmax "Quicksand";
+  color: #0067a5;
+  justify-content: space-between;
+  margin: 2vmax 0;
+}
+
+/* NaN */
+.orderSummary>div>div>span {
+  color: rgba(0, 0, 0, 0.692);
+}
+
+/* total text*/
+.orderSummaryTotal {
+  display: flex;
+  font: 500 1.2vmax "Quicksand";
+  justify-content: space-between;
+  border-top: 7px solid #0067a5;
+  padding: 2vmax 0;
+}
+
+/* payment button */
+.orderSummary>button {
+  background-color:#0067a5;
+  color:antiquewhite;
+  width: 100%;
+  padding: 1.2vmax;
+  border: none;
+  margin: auto;
+  cursor: pointer;
+  transition: 0.5s;
+  font: 500 1.2vmax "Quicksand";
+  border-radius: 7px;
+  box-shadow: 0px 0px 15px 0px #000000;
+}
+
+.orderSummary>button:hover{
+  background-color: black;
+  color: antiquewhite;
+  transform: scale(1.1);
+}
+@media screen and (max-width: 600px) {
+  .confirmOrderPage {
+    grid-template-columns: 1fr;
+    height: unset;
+  }
+
+  .confirmOrderPage>div:last-child {
+    border-left: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.247);
+  }
+
+  .confirmshippingArea>p {
+    font: 400 3vw "Quicksand";
+  }
+
+  .confirmshippingAreaBox>div {
+    display: flex;
+    margin: 6vw 0;
+  }
+
+  .confirmshippingAreaBox>div>p {
+    font: 400 2vw "Quicksand";
+  }
+
+  .confirmshippingAreaBox>div>span {
+    font: 100 2vw "Quicksand";
+  }
+
+  .confirmCartItems>p {
+    font: 400 3vw "Quicksand";
+  }
+
+ 
+
+  .confirmCartItemsContainer>div {
+    font: 400 2vw "Quicksand";
+    margin: 4vw 0;
+  }
+
+  .confirmCartItemsContainer>div>img {
+    width: 15vw;
+    border: 2px solid #0067a5;
+  }
+
+
+
+  .confirmCartItemsContainer>div>span {
+    font: 100 2vw "Quicksand";
+    padding: 0.25vmax;
+  }
+
+  .orderSummary {
+    padding: 12vw;
+  }
+
+  .orderSummary>p {
+    font: 400 2vw "Quicksand";
+    padding: 4vw;
+  }
+
+  .orderSummary>div>div {
+    font: 300 2vw "Quicksand";
+  }
+
+  .orderSummaryTotal {
+    font: 300 2vw "Quicksand";
+    padding: 5vw 0;
+  }
+
+
+  .orderSummary>button {
+    padding: 4vw;
+    margin: 4vw auto;
+    font: 400 2vw "Quicksand";
+  
+  }
+}

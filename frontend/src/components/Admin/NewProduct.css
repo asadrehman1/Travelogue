@@ -1,0 +1,308 @@
+/* whole container */
+.newProductContainer {
+  width: 100%;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+/* create package heading */
+.newProductContainer h1 {
+  color: rgba(12, 57, 121, 0.856);
+  font-family: 'Quicksand', sans-serif;
+  text-align: center;
+  font-weight: 900;
+}
+
+/* whole form */
+.createProductForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+  padding: 3vmax;
+  justify-content: space-evenly;
+  width: 95vh;
+  background-color: rgba(211, 211, 211, 0.733);
+  box-shadow: 0px 0px 15px 0px #000000;
+  border-radius: 20px;
+}
+
+.createProductForm > div {
+  display: flex;
+  width: 100%;
+  align-items: center;
+}
+
+/* input fields, text fields, choose file fields */
+.createProductForm > div > input,
+.createProductForm > div > select,
+.createProductForm > div > textarea {
+  padding: 1vmax 3vmax;
+  padding-right: 1vmax;
+  margin: 5px;
+  width: 100%;
+  box-sizing: border-box;
+  border: 3px solid #0067a5;
+  border-radius: 7px;
+  font: 300 1vmax "Quicksand";
+  outline: none;
+}
+
+/* hover effect on fields */
+.createProductForm > div > input:focus,
+.createProductForm > div > select:focus,
+.createProductForm > div > textarea:focus{
+  border-color: green;
+} 
+
+
+/* pickup pints remove button */
+.pick-up-points button{
+  border: 3px solid #0067a5;
+  border-radius: 7px;
+  box-shadow: 0px 0px 5px 0px #000000;
+  cursor: pointer;
+  font-family: 'Quicksand', sans-serif;
+  background-color: #0067a5 !important;
+  color: antiquewhite;
+  padding: 0.8vmax;
+  cursor: pointer;
+  transition: all 0.5s;
+  outline: none;
+}
+
+/* add pickup points button */
+.pick-up-points-btn{
+  border: 3px solid #0067a5;
+  border-radius: 7px;
+  box-shadow: 0px 0px 5px 0px #000000;
+  cursor: pointer;
+  font-family: 'Quicksand', sans-serif;
+  background-color: #0067a5 !important;
+  color: antiquewhite;
+  padding: 0.8vmax;
+  cursor: pointer;
+  transition: all 0.5s;
+  outline: none;
+}
+
+.tourDatesSection{
+  margin-left: 7.7%;
+}
+
+/* add dates btn */
+.tourDatesSection button{
+  border: 3px solid #0067a5;
+  border-radius: 7px;
+  box-shadow: 0px 0px 5px 0px #000000;
+  cursor: pointer;
+  font-family: 'Quicksand', sans-serif;
+  background-color: #0067a5 !important;
+  color: antiquewhite;
+  cursor: pointer;
+  transition: all 0.5s;
+  outline: none;
+
+}
+
+/* calender field */
+.calender{
+  padding: 1vmax 3vmax;
+  padding-right: 1vmax;
+  margin-right: 5px;
+  width: 100%;
+  box-sizing: border-box;
+  border: 3px solid #0067a5;
+  border-radius: 7px;
+  font: 300 1vmax "Quicksand";
+  outline: none;
+}
+
+/* selected dates */
+.selected-dates{
+  padding: 2px 2px;
+  margin-right: 5px;
+  width: 100%;
+  box-sizing: border-box;
+  border: 3px solid #0067a5;
+  border-radius: 7px;
+  font: 300 1vmax "Quicksand";
+  outline: none;
+  margin-left: 2%;
+}
+/* icons */
+.createProductForm > div > svg {
+
+  transform: translateX(2.3vmax);
+  font-size: 1.6vmax;
+ color: #0067a5;
+}
+
+#createProductFormFile > input {
+  display: flex;
+  padding: 0%;
+  margin-left: 4.5%;
+}
+
+/* choose files button */
+#createProductFormFile > input::file-selector-button {
+  cursor: pointer;
+  width: 100%;
+  z-index: 2;
+  border: none;
+  margin: 0%;
+  font: 400 1vmax "Quicksand";
+  transition: all 0.5s;
+  color: rgba(0, 0, 0, 0.623);
+  background-color: rgb(255, 255, 255);
+  height: 45px;
+ 
+}
+
+#createProductFormFile > input::file-selector-button:hover {
+  background-color: rgb(235, 235, 235);
+}
+
+#createProductFormImage {
+  width: 100%;
+  overflow: auto;
+  height: 100px;
+}
+
+#createProductFormImage > img {
+  width: 3vmax;
+  margin: 10px 0.5vmax;
+}
+
+
+
+/* create button */
+#createProductBtn{
+  border: 3px solid #0067a5;
+  border-radius: 7px;
+  box-shadow: 0px 0px 9px 0px #000000;
+  cursor: pointer;
+  font-family: 'Quicksand', sans-serif;
+  background-color: #0067a5 !important;
+  color: antiquewhite;
+  width: 100%;
+  padding: 0.8vmax;
+  cursor: pointer;
+  transition: all 0.5s;
+  outline: none;
+}
+#createProductBtn:hover{
+  background-color: black;
+  color: antiquewhite;
+}
+
+/* includes div */
+.includesContainer {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 8%;
+  padding-right: 5%;
+}
+
+/* includes text */
+.includesContainer p {
+  font-size: 13px;
+  font-family: 'Quicksand', sans-serif;
+  color: #0067a5;
+  font-weight: 900;
+}
+
+.includesContainer button{
+
+  border: 3px solid #0067a5;
+  border-radius: 7px;
+  box-shadow: 0px 0px 5px 0px #000000;
+  cursor: pointer;
+  font-family: 'Quicksand', sans-serif;
+  background-color: #0067a5 !important;
+  color: antiquewhite;
+  padding: 0.8vmax;
+  cursor: pointer;
+  transition: all 0.5s;
+  outline: none;
+}
+
+.include-fields{
+  padding: 1vmax 3vmax;
+  padding-right: 1vmax;
+  margin-left: 12px;
+  margin-right: 12px;
+  box-sizing: border-box;
+  border: 3px solid #0067a5;
+  border-radius: 7px;
+  font: 300 1vmax "Quicksand";
+  outline: none;
+}
+
+
+/* includes title wifi etc */
+.includeLabel {
+  display: flex;
+  align-items: flex-start; 
+  margin-right: 1rem;
+  margin-left: 1rem;
+  font-size: 13px;
+  font-family: 'Quicksand', sans-serif;
+}
+
+/* includes boxes */
+.includeLabel input {
+  margin-right: 0.5rem;
+  font-size: 13px;
+  
+}
+
+
+@media screen and (max-width: 600px) {
+  .newProductContainer {
+    background-color: rgb(255, 255, 255);
+  }
+
+  /*
+  .createProductForm {
+    padding: 5vmax;
+  }
+  */
+
+  .createProductForm > div > input,
+  .createProductForm > div > select,
+  .createProductForm > div > textarea {
+    padding: 2.5vmax 5vmax;
+    font: 300 1.7vmax "Quicksand";
+  }
+
+  .createProductForm > div > svg {
+    font-size: 2.8vmax;
+    transform: translateX(3.5vmax);
+  }
+
+  #createProductFormFile > img {
+    width: 8vmax;
+    border-radius: 100%;
+  }
+
+  #createProductFormFile > input::file-selector-button {
+    height: 7vh;
+    font: 400 1.8vmax "Quicksand";
+  }
+
+  .calender{
+ 
+    font: 300 2.5vmax "Quicksand";
+    
+  }
+  /*
+  #createProductBtn {
+    font: 300 1.9vmax "Quicksand";
+    padding: 1.8vmax;
+  }
+  */
+}

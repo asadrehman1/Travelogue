@@ -1,0 +1,108 @@
+.paymentContainer {
+  display: grid;
+  place-items: center;
+  background-color: rgb(255, 255, 255);
+
+  margin: 2vmax;
+
+}
+
+/* payement form */
+.paymentForm {
+  width: 30%;
+  height: 100%;
+  background-color: lightgray;
+  border-radius: 20px;
+  box-shadow: 0px 0px 30px 0px #000000;
+  padding: 2vmax 2vmax;
+}
+
+/* card information text */
+.paymentForm>p {
+  font: 500 1.8vmax "Quicksand";
+  color: #0067a5;
+  border-bottom: 6px solid #0067a5;
+  padding: 1vmax 0;
+  text-align: center;
+  width: 50%;
+  margin: auto;
+}
+
+.paymentForm>div {
+  display: flex;
+  align-items: center;
+  margin: 2vmax 0;
+}
+
+/* input fields */
+.paymentInput {
+
+  padding: 1vmax 3vmax;
+  padding-right: 1vmax;
+  width: 100%;
+  box-sizing: border-box;
+  outline: none;
+  border: 3px solid #0067a5;
+  border-radius: 7px;
+  box-shadow: 0px 0px 9px 0px #000000;
+  font-family: 'Quicksand', sans-serif;
+  background-color: whitesmoke;
+}
+
+/* icons */
+.paymentForm>div>svg {
+  position: absolute;
+  transform: translateX(1vmax);
+  font-size: 1.6vmax;
+  color: #0067a5;
+}
+
+.paymentFormBtn {
+
+  border: none;
+  width: 100%;
+  padding: 0.8vmax;
+  cursor: pointer;
+  transition: all 0.5s;
+  outline: none;
+  background-color: #0067a5;
+  border-radius: 7px;
+  box-shadow: 0px 0px 15px 0px #000000;
+  color: antiquewhite;
+  font: 500 1.2vmax "Quicksand";
+}
+
+.paymentFormBtn:hover{
+  background-color: black;
+  color: antiquewhite;
+  transform: scale(1.1);
+}
+
+@media screen and (max-width: 600px) {
+  .paymentForm {
+    width: 90%;
+  }
+
+  .paymentForm>p {
+    font: 400 3vw "Quicksand";
+    padding: 4vw 0;
+    width: 60%;
+  }
+
+  .paymentForm>div {
+    margin: 10vw 0;
+  }
+
+  .paymentInput {
+    padding: 4vw 10vw;
+  }
+
+  .paymentForm>div>svg {
+    font-size: 3vw;
+  }
+
+  .paymentFormBtn {
+    font: 300 2vw "Quicksand";
+    padding: 4vw;
+  }
+}

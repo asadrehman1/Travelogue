@@ -1,0 +1,50 @@
+
+.flexbox{
+  display: flex;
+  flex-direction: row;
+}
+.footer-grid{
+  background: linear-gradient(to left, #2a6579, #4445a8, #032241);
+  background-size: 200% 100%;
+  animation: gradientAnimation 5s linear infinite;
+  font-family: 'Quicksand', sans-serif;
+}
+.text-white{
+  color: white;
+}
+.circular{
+  border: 1px solid;
+  border-color: white;
+  border-radius: 10px;
+ 
+}
+.social-links{
+  text-decoration: none;
+}
+.social-links{
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+}
+.hovers{
+  cursor: pointer;
+  color: white;
+  cursor: pointer;
+  text-decoration: none;
+}
+@media (max-width: 768px) {
+  .LogoTitle {
+   font-size: 18px;
+  }
+  .insta-collag-img{
+    width: 80%;
+  }
+}
+@media (max-width: 1200px) {
+  .LogoTitle {
+   font-size: 18px;
+  }
+  .insta-collag-img{
+    width: 80%;
+  }
+}

@@ -1,0 +1,81 @@
+/* create blog form */
+.blog-container {
+  max-width: 800px;
+  margin: auto;
+  padding: 30px;
+  box-shadow: 0px 0px 30px 0px #000000;
+  background-color: rgba(211, 211, 211, 0.76);
+  border-radius: 10px;
+
+}
+
+/* write a blog heading */
+.blog-container h2 {
+  color: #0067a5;
+  font-family: 'Quicksand';
+
+}
+
+.blog-container form {
+  display: flex;
+  flex-direction: column;
+}
+
+/* form labels */
+.blog-container label {
+  margin-top: 10px;
+  color: #0067a5;
+  font-family: 'Quicksand';
+  margin-bottom: 1%;
+}
+
+/* textual input fields & choose file field*/
+.blog-container input,
+.blog-container textarea {
+  padding: 8px;
+  margin: 5px 0 15px 0;
+  border: 3px solid #0067a5;
+  border-radius: 7px;
+}
+
+.blog-container input:focus{
+  border-color: black;
+}
+/* choose category */ 
+.select-category{
+  border: 3px solid #0067a5;
+  border-radius: 7px;
+  padding: 8px;
+  margin: 5px 0 15px 0;
+}
+.select-category:focus{
+  border-color: black;
+}
+
+/* submit button */
+.blog-container button {
+  padding: 8px;
+  background-color: #0067a5;
+  color: antiquewhite;
+  border: 3px solid #0067a5;
+  border-radius: 7px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 10px;
+  transition: transform 0.2s, box-shadow 0.2s;
+  font-family: 'Quicksand';
+}
+
+.blog-container button:hover {
+  background-color: black;
+  border-color: black;
+}
+.content{
+  height: 170px;
+}
+@media only screen and (max-width: 950px) {
+  .blog-container{
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+}

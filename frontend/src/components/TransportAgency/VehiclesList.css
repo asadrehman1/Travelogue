@@ -1,0 +1,70 @@
+/* whole main container */
+.vehicleListContainer {
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Quicksand', sans-serif;
+  }
+  
+
+/* your vehicles heading */
+  #vehicleListHeading {
+    font-family: 'Quicksand', sans-serif;
+    padding: 0.5vmax;
+    box-sizing: border-box;
+    color: rgba(12, 57, 121, 0.856);
+    transition: all 0.5s;
+    margin: 3rem;
+    text-align: center;
+  }
+  
+  /* table containing vehicles list */
+  .vehicleListTable {
+    background-color: rgba(211, 211, 211, 0.473);
+    box-shadow: 0px 0px 25px 0px #000000;
+    cursor: pointer;
+  }
+  
+  /* textual fields */
+  .vehicleListTable div {
+    font: 500 1vmax "Quicksand";
+    color: rgba(12, 57, 121, 0.856);
+    border: none !important;
+  }
+  
+  .vehicleListTable a,
+  .vehicleListTable button {
+    color: rgba(12, 57, 121, 0.856);
+    transition: all 0.5s;
+  }
+  
+  /* edit icon */
+  .vehicleListTable a:hover {
+    color: black;
+  }
+  
+  /* delete icon warning */
+  .vehicleListTable button:hover {
+    color: rgb(236, 30, 30);
+  }
+  
+
+  .MuiDataGrid-columnHeader div {
+    color: rgb(255, 255, 255);
+    font-family: 'Quicksand', sans-serif;
+  }
+
+  /* grid headers */
+.MuiDataGrid-columnHeader {
+  background-color:  rgba(12, 57, 121, 0.856);
+  font-family: 'Quicksand', sans-serif;
+}
+  
+  @media screen and (max-width: 600px) {
+    .vehicleListTable div {
+      font: 300 4vw "Quicksand";
+    }
+  }
+  
+  

@@ -1,0 +1,24 @@
+.your-blogs {
+    text-align: center;
+    margin-bottom: 2%;
+    font-family: 'Quicksand';
+}
+
+.new-blog-btn {
+    margin-left: 8%;
+    margin-right: 8%;
+    background-color: #0067a5;
+    color: antiquewhite;
+    border: 1px solid #0067a5;
+    border-radius: 10px;
+    padding: 10px 40px;
+    box-shadow: 0px 0px 15px 0px #000000;
+    font-family: 'Quicksand';
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.new-blog-btn:hover {
+    background-color: black;
+    border-color: black;
+    transform: scale(1.05);
+}
